@@ -1,0 +1,6879 @@
+<?xml version="1.0"?>
+<!--  Monday, March 05, 2018 14:24:13  -->
+
+<Investigation
+	Version="7020604"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="blob_acqstatus"
+	RtType="1"
+	RtId="199115840"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="blob_area_result"
+	RtType="1"
+	RtId="199114784"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="blob_dist_result"
+	RtType="1"
+	RtId="199113904"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="blob_result"
+	RtType="1"
+	RtId="199114960"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="edge_acqstatus"
+	RtType="1"
+	RtId="199115488"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="FinalResult"
+	RtType="1"
+	RtId="199115664"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="img_aqcstatus"
+	RtType="1"
+	RtId="199116016"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="LIN01_distance_result"
+	RtType="1"
+	RtId="199117248"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="roiedge_result"
+	RtType="1"
+	RtId="199117424"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="teste"
+	RtType="1"
+	RtId="199116544"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="blob_area"
+	RtType="1"
+	RtId="188937488"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="599089"
+/>
+</Var>
+<Var
+	RtName="blob_area_colour"
+	RtType="1"
+	RtId="188936784"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="65280"
+/>
+</Var>
+<Var
+	RtName="blob_area_max_pmt"
+	RtType="1"
+	RtId="188938720"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="650000"
+/>
+</Var>
+<Var
+	RtName="blob_area_min_pmt"
+	RtType="1"
+	RtId="188939952"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="500000"
+/>
+</Var>
+<Var
+	RtName="blob_caliper_colour"
+	RtType="1"
+	RtId="188936432"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="65280"
+/>
+</Var>
+<Var
+	RtName="blob_edge_dist"
+	RtType="1"
+	RtId="188940480"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="493.58478260869549"
+/>
+</Var>
+<Var
+	RtName="blob_edge_dist_max_pmt"
+	RtType="1"
+	RtId="188937664"
+	ValType="258"
+	Comment="Parameter for blob_edge_dist">
+<Obj
+	Type="3"
+	Val="550"
+/>
+</Var>
+<Var
+	RtName="blob_edge_dist_min_pmt"
+	RtType="1"
+	RtId="188937840"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="370"
+/>
+</Var>
+<Var
+	RtName="blob_result_colour"
+	RtType="1"
+	RtId="188936960"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="65280"
+/>
+</Var>
+<Var
+	RtName="GID"
+	RtType="1"
+	RtId="188938016"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="14816764.336987654"
+/>
+</Var>
+<Var
+	RtName="img_acqTime"
+	RtType="1"
+	RtId="188937136"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="3.3722469136118889"
+/>
+</Var>
+<Var
+	RtName="img_blob_acqtime"
+	RtType="1"
+	RtId="188938368"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="2.3964444454759359"
+/>
+</Var>
+<Var
+	RtName="img_edge_acqtime"
+	RtType="1"
+	RtId="188938896"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="3.221333334222436"
+/>
+</Var>
+<Var
+	RtName="light2darkCNT"
+	RtType="1"
+	RtId="188939424"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="5"
+/>
+</Var>
+<Var
+	RtName="Lin01_cnt_colour"
+	RtType="1"
+	RtId="188936256"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="255"
+/>
+</Var>
+<Var
+	RtName="Lin01_dist_colour"
+	RtType="1"
+	RtId="188939600"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="65280"
+/>
+</Var>
+<Var
+	RtName="lin01_max_dist_pmt"
+	RtType="1"
+	RtId="188940832"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="200"
+/>
+</Var>
+<Var
+	RtName="lin01_min_dist_pmt"
+	RtType="1"
+	RtId="188940128"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="50"
+/>
+</Var>
+<Var
+	RtName="roiedge_array_size"
+	RtType="1"
+	RtId="188940656"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="11"
+/>
+</Var>
+<Var
+	RtName="roiedge_cnt"
+	RtType="1"
+	RtId="188936080"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="11"
+/>
+</Var>
+<Var
+	RtName="roiedge_cnt_colour"
+	RtType="1"
+	RtId="188936608"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="65280"
+/>
+</Var>
+<Var
+	RtName="roiedge_first"
+	RtType="1"
+	RtId="199115136"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="223.00021402101163"
+/>
+</Var>
+<Var
+	RtName="roiedge_last"
+	RtType="1"
+	RtId="199115312"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="1592.9997796376251"
+/>
+</Var>
+<Var
+	RtName="roiedge_wadsize"
+	RtType="1"
+	RtId="199116192"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="1369.9995656166134"
+/>
+</Var>
+<Var
+	RtName="TimeProcessing"
+	RtType="1"
+	RtId="199114432"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="411.51249382644892"
+/>
+</Var>
+<Var
+	RtName="total_analisado"
+	RtType="1"
+	RtId="199114608"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="1024"
+/>
+</Var>
+<Var
+	RtName="total_nok"
+	RtType="1"
+	RtId="199114080"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="690"
+/>
+</Var>
+<Var
+	RtName="total_ok"
+	RtType="1"
+	RtId="199114256"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="334"
+/>
+</Var>
+<Var
+	RtName="total_ok_percentual"
+	RtType="1"
+	RtId="199116720"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="32.6171875"
+/>
+</Var>
+<Var
+	RtName="roiedge_edge_max"
+	RtType="1"
+	RtId="199116368"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="17"
+/>
+</Var>
+<Var
+	RtName="roiedge_edge_min"
+	RtType="1"
+	RtId="199117072"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="5"
+/>
+</Var>
+<Var
+	RtName="roiedge_mean"
+	RtType="1"
+	RtId="199116896"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="10.909090909090908"
+/>
+</Var>
+<Var
+	RtName="roiedge_var"
+	RtType="1"
+	RtId="199113728"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="12.991735537190095"
+/>
+</Var>
+<Var
+	RtName="roiedge_stddev"
+	RtType="1"
+	RtId="200755936"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="3.6044050184725487"
+/>
+</Var>
+<Var
+	RtName="blob_result_string"
+	RtType="1"
+	RtId="188928688"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Caliper OK"
+/>
+</Var>
+<Var
+	RtName="date"
+	RtType="1"
+	RtId="188928864"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="05/03/18"
+/>
+</Var>
+<Var
+	RtName="dateFormat"
+	RtType="1"
+	RtId="188939776"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="2018-03-05"
+/>
+</Var>
+<Var
+	RtName="FinalResult_string"
+	RtType="1"
+	RtId="188937312"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="RESULT IS OK!"
+/>
+</Var>
+<Var
+	RtName="GIDstring"
+	RtType="1"
+	RtId="188938544"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="14816764.337"
+/>
+</Var>
+<Var
+	RtName="roiedge_distance_string"
+	RtType="1"
+	RtId="188940304"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Dist:  103 180 138 133 136 136 146 138 130 132"
+/>
+</Var>
+<Var
+	RtName="roiedge_result_string"
+	RtType="1"
+	RtId="188939248"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="# Wad Correct"
+/>
+</Var>
+<Var
+	RtName="time"
+	RtType="1"
+	RtId="188939072"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="14:21:45"
+/>
+</Var>
+<Var
+	RtName="timeFormat"
+	RtType="1"
+	RtId="188938192"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="14-21-45"
+/>
+</Var>
+<Var
+	RtName="blob_caliper_L1"
+	RtType="1"
+	RtId="188927280"
+	ValType="261">
+<Obj
+	Type="7"
+	Val="-1.5707963267948963,567.85000000000002"
+/>
+</Var>
+<Var
+	RtName="blob_caliper_L2"
+	RtType="1"
+	RtId="188928160"
+	ValType="261">
+<Obj
+	Type="7"
+	Val="-1.5707963267948963,1061.4347826086955"
+/>
+</Var>
+<Var
+	RtName="roiedge_dist_1point"
+	RtType="1"
+	RtId="188926224"
+	ValType="514">
+<Obj
+	Type="4098">
+<Val
+	Size="11"
+	Value="196,299,478.5,616,749,885,1021,1167,1304.5,1434,1566"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="roiedge_str"
+	RtType="1"
+	RtId="188927104"
+	ValType="514">
+<Obj
+	Type="4098">
+<Val
+	Size="11"
+	Value="5,6,15,17,12,13,12,13,11,7,9"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="roiedge_posic"
+	RtType="1"
+	RtId="188925696"
+	ValType="516">
+<Obj
+	Type="4100">
+<Val
+	Size="11"
+	Value="(861.46247947025506,223.00021402101163),(861.5445011214606,326.00018136299059),(861.68744176603718,505.50012444925494),(861.79693668876303,643.00008085238221),(861.90284814129052,776.00003868231613),(862.01114857395032,911.99999556104569),(862.11944900661001,1047.9999524397751),(862.23571270637706,1193.9999061478229),(862.3452076291029,1331.4998625509502),(862.44833193814281,1460.9998214906229),(862.55344706395965,1592.9997796376251)"
+/>
+</Obj>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="198551328"
+/>
+<FileIo
+	RtId="198541296"
+/>
+<FileIo
+	RtId="198546048"
+/>
+<FileIo
+	RtId="198539712"
+/>
+<FileIo
+	RtId="198545520"
+/>
+<FileIo
+	RtId="198552912"
+/>
+<FileIo
+	RtId="198549216"
+/>
+<FileIo
+	RtId="198541824"
+/>
+<FileIo
+	RtId="198538128"
+/>
+<FileIo
+	RtId="198538656"
+/>
+</FileIoMgr>
+<SerialIoMgr
+/>
+<UdpIoMgr
+/>
+<TcpIoMgr>
+<Elements>
+<TcpIo
+	RtName="[None]"
+	RtType="7"
+	RtId="198764832"
+	ValType="1024"
+	Port="1025"
+	HostnameOrIP="C4nti-PC"
+	IsServer="0">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</TcpIo>
+</Elements>
+</TcpIoMgr>
+<ModbusIoMgr
+/>
+<Alignments>
+<Alignment
+	RtName="alignmentA"
+	RtType="7"
+	RtId="200347840"
+	ValType="1026"
+	RotatorAngle="0"
+	RotatorX="2.2659648116922732e-304"
+	RotatorY="2.4947058810779754e-304"
+	TransX="0"
+	TransY="0">
+<Obj
+	Type="0"
+/>
+<Readings
+/>
+</Alignment>
+</Alignments>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<ProfinetMgr
+	name=""
+	guid=""
+	ip=""
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="199601232"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgORIGINAL"
+	RtType="5"
+	RtId="199662288"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.25"
+	WndPosLeft="93"
+	WndPosTop="34"
+	WndPosRight="761"
+	WndPosBottom="609"
+	WndPosShowCmd="2"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="23"
+	WndPosSizeScrollX="648"
+	WndPosSizeScrollY="486"
+	WndToolbarVisible="1"
+	bLogImages="1"
+	bDisableNumFile="0"
+	bLogCurIndex="14"
+	bLogMaxIndex="200"
+	strLogDir="D:\LOG"
+	strLogPrefix="log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	bDisableNumFtp="0"
+	nFtpLogCurIndex="0"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="5000"
+	RealBpp="12"
+	SrcBpp="8"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="199608672"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200187536"
+	ConnVar="188937136"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="37.167802467942238"
+/>
+<Annot
+	Type="6"
+	X="2"
+	Y="2"
+	Clr="0"
+	Text="acq time: 37.17"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="198654016"
+	ConnVar="199116016"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="D:\2.PRO\PRO_BPortugal_17003\Vision Images Captured Spot\LOG - CODE TEST SUBJECT"
+	FileSeqPrefix="imgA-log-"
+	FileSeqExt="BMP"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="-1"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="15"
+	FileSeqNameFormat="1"
+	SoRtId="199662288"
+/>
+<Image
+	Width="2592"
+	Height="1944"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="200759984"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="199155904"
+	ParentInstr="199662288"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="199662288"
+/>
+<Instruction
+	RtName="callA"
+	RtType="5"
+	RtId="197866144"
+	ParentInstr="0"
+	InstrType="9"
+	Collapsed="0"
+	CalledSub="199493984">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="write digital outputA"
+	RtType="5"
+	RtId="200888176"
+	ParentInstr="0"
+	InstrType="100"
+	Collapsed="1"
+	ExecDisabled="1">
+<Inputs>
+<id0
+	RtId="199606992"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="199610592"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id1>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="write digital outputB"
+	RtType="5"
+	RtId="200888816"
+	ParentInstr="0"
+	InstrType="100"
+	Collapsed="1"
+	ExecDisabled="1">
+<Inputs>
+<id0
+	RtId="199611312"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="2"
+/>
+</id0>
+<id1
+	RtId="199612272"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id1>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Call WriteHeader"
+	RtType="5"
+	RtId="197865408"
+	ParentInstr="0"
+	InstrType="9"
+	Collapsed="0"
+	CalledSub="199493648">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="img.blob"
+	RtType="5"
+	RtId="199649904"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="2"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.25"
+	WndPosLeft="41"
+	WndPosTop="20"
+	WndPosRight="693"
+	WndPosBottom="510"
+	WndPosShowCmd="2"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="648"
+	WndPosSizeScrollY="486"
+	WndToolbarVisible="1"
+	bLogImages="0"
+	bDisableNumFile="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="D:\0.FFA\PRO_BPortugal_17003\Teste BP\LOG"
+	strLogPrefix="imgB-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	bDisableNumFtp="0"
+	nFtpLogCurIndex="0"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgB-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="1"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="5000"
+	RealBpp="12"
+	SrcBpp="8"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="199610112"
+	Connected="198654016">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="199498880"
+	ConnVar="188938368"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="2.3964444454759359"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 2.40"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="198650624"
+	ConnVar="199115840"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	ShareBuffer="0"
+	IsType="1"
+	ImgType="1"
+	SrcBpp="8"
+	SoSrcRtId="199662288"
+	ParentSo="199649904"
+/>
+<Image
+	Width="2592"
+	Height="1944"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="200756992"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="img.edge"
+	RtType="5"
+	RtId="199651968"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="2"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.25"
+	WndPosLeft="42"
+	WndPosTop="16"
+	WndPosRight="710"
+	WndPosBottom="571"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="648"
+	WndPosSizeScrollY="486"
+	WndToolbarVisible="1"
+	bLogImages="0"
+	bDisableNumFile="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlockx64\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	bDisableNumFtp="0"
+	nFtpLogCurIndex="0"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="5000"
+	RealBpp="12"
+	SrcBpp="8"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="199605792"
+	Connected="198654016">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="199944928"
+	ConnVar="188938896"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3.221333334222436"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 3.22"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="199945856"
+	ConnVar="199115488"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	ShareBuffer="0"
+	IsType="1"
+	ImgType="1"
+	SrcBpp="8"
+	SoSrcRtId="199662288"
+	ParentSo="199651968"
+/>
+<Image
+	Width="2592"
+	Height="1944"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="200754880"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="OverallResult"
+	RtType="5"
+	RtId="199101280"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="if(  Vars.blob_area_result==true &amp;&amp; Vars.blob_dist_result ==true &#xD;&amp;&amp; Vars.roiedge_result==true) &#xD;{&#xD;Vars.FinalResult_string= &quot;RESULT IS OK!&quot;&#xD;Vars.FinalResult=true&#xD;Vars.total_ok=Vars.total_ok+1&#xD;&#xD;	&#xD;}&#xD;else {&#xD;Vars.FinalResult=false&#xD;Vars.FinalResult_string= &quot;RESULT NOT OK!&quot;&#xD;Vars.total_nok=Vars.total_nok+1&#xD;&#xD;&#xD;	&#xD;}&#xD;&#xD;&#xD;&#xD;Vars.total_analisado=Vars.total_analisado+1&#xD;&#xD;Vars.total_ok_percentual=(Vars.total_ok/Vars.total_analisado)*100">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="imgAnnote"
+	RtType="5"
+	RtId="199664352"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="2"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.25"
+	WndPosLeft="28"
+	WndPosTop="10"
+	WndPosRight="680"
+	WndPosBottom="500"
+	WndPosShowCmd="2"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="648"
+	WndPosSizeScrollY="486"
+	WndToolbarVisible="1"
+	bLogImages="0"
+	bDisableNumFile="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlockx64\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	bDisableNumFtp="0"
+	nFtpLogCurIndex="0"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="5000"
+	RealBpp="12"
+	SrcBpp="8"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="199040320"
+	Connected="198654016">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200080960"
+	ConnVar="188937136"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3.3722469136118889"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 3.37"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="200770688"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	ShareBuffer="0"
+	IsType="1"
+	ImgType="1"
+	SrcBpp="8"
+	SoSrcRtId="199662288"
+	ParentSo="199664352"
+/>
+<Image
+	Width="2592"
+	Height="1944"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="200760160"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="callA"
+	RtType="5"
+	RtId="197848480"
+	ParentInstr="0"
+	InstrType="9"
+	Collapsed="0"
+	CalledSub="199491968">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="199154304"
+	ParentInstr="199662288"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="199662288"
+/>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="199157184"
+	ParentInstr="199649904"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="199649904"
+/>
+<Instruction
+	RtName="ROI.BLOB"
+	RtType="5"
+	RtId="200771616"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="501"
+	HdrLocY="41"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="199649904"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="2">
+<Val
+	Size="2"
+	Value="(496,46),(1320,1888)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="2">
+<Val
+	Size="2"
+	Value="(496,46),(1320,1888)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="1"
+	RtName="prepA"
+	RtType="5"
+	RtId="197866880"
+	ParentInstr="200771616"
+	InstrType="18"
+	Collapsed="0"
+	ProxyHandleRtId="0"
+	SoRtId="200771616"
+	Tag="CODE_REVE_V007-ROI.BLOB-prepA"
+	ImgProcId="_CIpeThresholdExtr_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="threshold"
+	RtType="2"
+	RtId="198716992"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="135"
+/>
+</id0>
+<id1
+	RtName="below value"
+	RtType="2"
+	RtId="198717904"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="above value"
+	RtType="2"
+	RtId="198722160"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="255"
+/>
+</id2>
+</Params>
+</Preprocessor>
+<Preprocessor
+	PreprocIndex="3"
+	RtName="prepD"
+	RtType="5"
+	RtId="197867248"
+	ParentInstr="200771616"
+	InstrType="18"
+	Collapsed="0"
+	ProxyHandleRtId="0"
+	SoRtId="200771616"
+	Tag="CODE_REVE_V007-ROI.BLOB-prepD"
+	ImgProcId="_CSiRemoveBlobs_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="white blobs"
+	RtType="2"
+	RtId="198721248"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="8 way"
+	RtType="2"
+	RtId="198719424"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id1>
+<id4
+	RtName="remove edge blobs"
+	RtType="2"
+	RtId="197216576"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id4>
+<id10
+	RtName="limit type"
+	RtType="2"
+	RtId="197213840"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id10>
+<id11
+	RtName="min area"
+	RtType="2"
+	RtId="197215968"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id11>
+<id12
+	RtName="max area"
+	RtType="2"
+	RtId="197214448"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="2000"
+/>
+</id12>
+<id13
+	RtName="limit type"
+	RtType="2"
+	RtId="197216272"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id13>
+<id14
+	RtName="min width"
+	RtType="2"
+	RtId="197211712"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id14>
+<id15
+	RtName="max width"
+	RtType="2"
+	RtId="197215056"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id15>
+<id16
+	RtName="limit type"
+	RtType="2"
+	RtId="197216880"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id16>
+<id17
+	RtName="min height"
+	RtType="2"
+	RtId="197217184"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id17>
+<id18
+	RtName="max height"
+	RtType="2"
+	RtId="197212320"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id18>
+<id40
+	RtName="mark removed blobs"
+	RtType="2"
+	RtId="197215360"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id40>
+<id41
+	RtName="mark saved blobs"
+	RtType="2"
+	RtId="197215664"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id41>
+<id42
+	RtName="gray removed blobs"
+	RtType="2"
+	RtId="197217792"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id42>
+</Params>
+</Preprocessor>
+<Preprocessor
+	PreprocIndex="4"
+	RtName="prepC"
+	RtType="5"
+	RtId="197845168"
+	ParentInstr="200771616"
+	InstrType="18"
+	Collapsed="0"
+	ProxyHandleRtId="0"
+	SoRtId="200771616"
+	Tag="CODE_REVE_V007-ROI.BLOB-prepC"
+	ImgProcId="_CIpeMonoDilate_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="execute times"
+	RtType="2"
+	RtId="197210192"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="6"
+/>
+</id0>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="197853632"
+	ParentInstr="200771616"
+	InstrType="19"
+	Collapsed="1"
+	ProxyHandleRtId="0"
+	SoRtId="200771616"
+	Tag="CODE_REVE_V007-ROI.BLOB-algA"
+	ImgProcId="_CIpeCount_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="200772928"
+	ConnVar="188937488"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="599089"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="pixel count: 599089.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params>
+<id0
+	RtName="pixel value"
+	RtType="2"
+	RtId="197210496"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="255"
+/>
+</id0>
+</Params>
+</Algorithm>
+<Algorithm
+	AlgIndex="1"
+	RtName="algC"
+	RtType="5"
+	RtId="197848848"
+	ParentInstr="200771616"
+	InstrType="19"
+	Collapsed="1"
+	ProxyHandleRtId="0"
+	SoRtId="200771616"
+	Tag="CODE_REVE_V007-ROI.BLOB-algC"
+	ImgProcId="_SiTools_LaserToolsLine_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="200773856"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="valid line: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="200774784"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="valid tip: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="200775712"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="510"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="line strength: 510.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+<id3
+	RtId="200776640"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="479"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="tip strength: 479.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="199733728"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="821.10761093102576,967"
+/>
+<Annot
+	Type="1"
+	X="879"
+	Y="951"
+	Clr="0"
+	Text="line center: (821.11, 967.00)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="821.108,967"
+/>
+</Annot>
+</id4>
+<id5
+	RtId="199734656"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="827.5,900"
+/>
+<Annot
+	Type="1"
+	X="884"
+	Y="916"
+	Clr="0"
+	Text="points middle: (827.50, 900.00)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="827.5,900"
+/>
+</Annot>
+</id5>
+<id6
+	RtId="199735584"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="7"
+	Val="-1.5108525676794742,877.56373550900196"
+/>
+<Annot
+	Type="3"
+	X="14"
+	Y="854"
+	Clr="0"
+	Text="line: (-1.51, 877.56)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="-1.51085,877.564"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="199736512"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="876.26200263943849,48"
+/>
+<Annot
+	Type="1"
+	X="886"
+	Y="32"
+	Clr="0"
+	Text="p1 intersect: (876.26, 48.00)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="876.262,48"
+/>
+</Annot>
+</id7>
+<id8
+	RtId="199744016"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="765.95321922261303,1886"
+/>
+<Annot
+	Type="1"
+	X="873"
+	Y="1870"
+	Clr="0"
+	Text="p2 intersect: (765.95, 1886.00)"
+	Display="1"
+	Highlight="1"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="765.953,1886"
+/>
+</Annot>
+</id8>
+<id9
+	RtId="199742160"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="786.96518190776828,1535.8920011710973"
+/>
+<Annot
+	Type="1"
+	X="875"
+	Y="1560"
+	Clr="0"
+	Text="tip: (786.97, 1535.89)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="786.965,1535.89"
+/>
+</Annot>
+</id9>
+<id10
+	RtId="199739376"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="1232"
+	Value="(880,276),(880,277),(880,278),(879.5,279),(879.5,280),(880,281),(880,282),(880,283),(880,284),(880,285),(880,286),(880,287),(880,288),(880,289),(879,290),(879,291),(879,292),(879,293),(879,294),(878.5,295),(878.5,296),(878.5,297),(878.5,298),(878.5,299),(878.5,300),(878.5,301),(878,302),(878,303),(878,304),(878,305),(878,306),(878,307),(878.5,308),(878.5,309),(878.5,310),(878.5,311),(878.5,312),(878.5,313),(878.5,314),(878.5,315),(878.5,316),(878.5,317),(878.5,318),(878.5,319),(878.5,320),(878,321),(878,322),(877.5,323),(877.5,324),(877.5,325),(877.5,326),(877.5,327),(877.5,328),(877.5,329),(877,330),(877,331),(877,332),(877,333),(877,334),(877,335),(877,336),(877,337),(877,338),(877,339),(877,340),(877,341),(877,342),(877,343),(877,344),(877,345),(877,346),(877,347),(877,348),(877,349),(877.5,350),(877.5,351),(877,352),(877,353),(877,354),(877,355),(877,356),(877,357),(877,358),(877,359),(877,360),(877,361),(877,362),(877,363),(877,364),(876.5,365),(876.5,366),(876.5,367),(876.5,368),(877,369),(877.5,370),(880,371),(880,372),(881,373),(881.5,374),(882,375),(882,376),(887,380),(885,381),(874.5,382),(874,383),(872,388),(871,389),(869,390),(860,391),(859.5,392),(849.5,393),(849.5,394),(849,395),(849,396),(849,397),(849,398),(849,399),(849,400),(849,401),(849,402),(849,403),(849,404),(849,405),(849,406),(849,407),(849,408),(848.5,409),(848.5,410),(848.5,411),(848.5,412),(848.5,413),(848.5,414),(848.5,415),(848.5,416),(847.5,417),(847.5,418),(847.5,419),(847.5,420),(847.5,421),(847.5,422),(847,423),(846.5,424),(846.5,425),(846.5,426),(846,427),(846,428),(846,429),(846,430),(846.5,431),(846.5,432),(846.5,433),(846.5,434),(846.5,435),(846.5,436),(846.5,437),(846.5,438),(846.5,439),(846.5,440),(846.5,441),(846.5,442),(847,443),(847,444),(846.5,445),(846.5,446),(846.5,447),(846.5,448),(846.5,449),(846.5,450),(846.5,451),(846.5,452),(846.5,453),(846.5,454),(846.5,455),(846.5,456),(846.5,457),(846.5,458),(846.5,459),(846.5,460),(846.5,461),(846.5,462),(846.5,463),(846.5,464),(846.5,465),(846.5,466),(846.5,467),(846.5,468),(846.5,469),(846.5,470),(846.5,471),(846.5,472),(846,473),(846,474),(846,475),(846,476),(846,477),(846,478),(846,479),(846,480),(846,481),(846,482),(846,483),(846,484),(846,485),(846.5,486),(846.5,487),(846.5,488),(846.5,489),(846.5,490),(846.5,491),(846.5,492),(846.5,493),(846.5,494),(846.5,495),(846.5,496),(846.5,497),(846.5,498),(846.5,499),(847,500),(847,501),(847,502),(847,503),(847,504),(847.5,505),(848,506),(847.5,507),(847.5,508),(847.5,509),(848,510),(848.5,511),(862,513),(861.5,514),(858,515),(856.5,516),(854,517),(852.5,518),(851.5,519),(851.5,520),(849.5,521),(848.5,522),(846.5,523),(845.5,524),(843,525),(842,526),(840.5,527),(840,528),(839.5,529),(839,530),(838,531),(837.5,532),(837.5,533),(837.5,534),(837.5,535),(837.5,536),(837.5,537),(837.5,538),(837.5,539),(837.5,540),(837.5,541),(837.5,542),(837.5,543),(837.5,544),(837.5,545),(837.5,546),(837.5,547),(837.5,548),(837.5,549),(837.5,550),(837,551),(837,552),(837,553),(837,554),(837,555),(837,556),(837,557),(837,558),(837,559),(837,560),(837,561),(837,562),(837,563),(837,564),(837,565),(837.5,566),(837.5,567),(837.5,568),(837.5,569),(838,570),(838,571),(838,572),(838,573),(838,574),(838,575),(838,576),(838,577),(838,578),(838,579),(837.5,580),(837.5,581),(837.5,582),(837.5,583),(837.5,584),(837.5,585),(837.5,586),(837.5,587),(837.5,588),(837.5,589),(837.5,590),(837.5,591),(837.5,592),(837.5,593),(837,594),(837,595),(837,596),(837,597),(837,598),(837,599),(837,600),(837,601),(837,602),(837,603),(837,604),(837,605),(837,606),(837,607),(838,608),(838,609),(838,610),(838,611),(838,612),(838,613),(838,614),(838,615),(838,616),(838,617),(838,618),(838,619),(838,620),(838,621),(838,622),(838.5,623),(838.5,624),(838.5,625),(838.5,626),(838.5,627),(838.5,628),(839,629),(839,630),(839,631),(839.5,632),(839.5,633),(840.5,634),(840.5,635),(840.5,636),(840.5,637),(840.5,638),(840.5,639),(841,640),(843,641),(842.5,642),(844.5,643),(844.5,644),(847,645),(848.5,646),(852.5,647),(852,648),(850.5,649),(846.5,650),(845,651),(842.5,652),(840,653),(840,654),(840,655),(839.5,656),(838,657),(838,658),(835,659),(834.5,660),(832,661),(831.5,662),(830.5,663),(830.5,664),(829.5,665),(829.5,666),(829.5,667),(829,668),(829,669),(828.5,670),(828.5,671),(828,672),(828,673),(828,674),(828,675),(827.5,676),(827.5,677),(827.5,678),(827.5,679),(827.5,680),(827.5,681),(827.5,682),(827.5,683),(827.5,684),(827.5,685),(827.5,686),(828,687),(828,688),(828,689),(827.5,690),(827.5,691),(827,692),(827,693),(826.5,694),(826.5,695),(826.5,696),(826.5,697),(826.5,698),(826.5,699),(826.5,700),(826.5,701),(826.5,702),(826.5,703),(826.5,704),(826.5,705),(826.5,706),(827,707),(827,708),(827.5,709),(827.5,710),(827.5,711),(827,712),(826.5,713),(826.5,714),(826.5,715),(826.5,716),(826,717),(825.5,718),(825.5,719),(825.5,720),(825.5,721),(825.5,722),(825.5,723),(825.5,724),(825.5,725),(825.5,726),(825.5,727),(825.5,728),(825,729),(825.5,730),(826,731),(826,732),(826,733),(826,734),(826.5,735),(826.5,736),(826.5,737),(826.5,738),(826.5,739),(826.5,740),(826,741),(826,742),(825.5,743),(825.5,744),(825.5,745),(825.5,746),(825.5,747),(825.5,748),(825,749),(825,750),(825,751),(825,752),(825,753),(825,754),(825,755),(825.5,756),(825.5,757),(825.5,758),(826,759),(826,760),(826,761),(827,762),(827,763),(827,764),(827,765),(828,766),(828,767),(833,768),(833,769),(833,770),(833,771),(833,772),(833,773),(833,774),(833,775),(833.5,776),(842,777),(842,778),(841.5,779),(837,780),(836,781),(836,782),(833.5,783),(833,784),(831,785),(830,786),(828.5,787),(828.5,788),(827.5,789),(827.5,790),(827.5,791),(827.5,792),(827.5,793),(827.5,794),(827.5,795),(826.5,796),(826,797),(826,798),(826,799),(826,800),(826,801),(826,802),(826,803),(825,804),(824.5,805),(824.5,806),(824.5,807),(824.5,808),(824.5,809),(824.5,810),(824,811),(824,812),(824,813),(824,814),(824,815),(824,816),(824,817),(824,818),(824,819),(824,820),(824,821),(824,822),(824,823),(824,824),(824,825),(824.5,826),(824.5,827),(824.5,828),(824.5,829),(824.5,830),(824,831),(824,832),(824.5,833),(824.5,834),(824.5,835),(824.5,836),(824.5,837),(824.5,838),(824.5,839),(824.5,840),(824.5,841),(824.5,842),(824.5,843),(824.5,844),(824,845),(823,846),(822,847),(822,848),(821.5,849),(821.5,850),(821.5,851),(821.5,852),(821.5,853),(821.5,854),(821.5,855),(821,856),(821.5,857),(821.5,858),(821.5,859),(821.5,860),(821.5,861),(821.5,862),(821.5,863),(821.5,864),(822,865),(822,866),(822.5,867),(822.5,868),(823,869),(823,870),(823,871),(823.5,872),(823,873),(822.5,874),(822.5,875),(822.5,876),(822.5,877),(822.5,878),(822.5,879),(822.5,880),(822.5,881),(822.5,882),(822.5,883),(822.5,884),(822.5,885),(822.5,886),(822.5,887),(822,888),(822.5,889),(822.5,890),(822.5,891),(822.5,892),(822.5,893),(823.5,894),(823.5,895),(823.5,896),(823.5,897),(823.5,898),(824,899),(827.5,900),(827.5,901),(827.5,902),(828,903),(831.5,904),(831.5,905),(833,906),(836,907),(837,908),(843.5,909),(833,911),(833,912),(832.5,913),(832.5,914),(830,915),(829.5,916),(827,917),(826.5,918),(828.5,919),(829.5,920),(829.5,921),(830,922),(828.5,923),(828.5,924),(828.5,925),(828.5,926),(828.5,927),(828.5,928),(828.5,929),(828.5,930),(828.5,931),(828.5,932),(828.5,933),(827.5,934),(827.5,935),(827.5,936),(827.5,937),(827.5,938),(827.5,939),(827.5,940),(827.5,941),(827.5,942),(827.5,943),(827.5,944),(827.5,945),(827.5,946),(827.5,947),(828,948),(827,949),(827,950),(827,951),(827,952),(827,953),(826.5,954),(826.5,955),(826.5,956),(826.5,957),(826.5,958),(826.5,959),(826.5,960),(826.5,961),(826.5,962),(826.5,963),(826.5,964),(826.5,965),(826,966),(826,967),(826,968),(826,969),(826,970),(826,971),(826,972),(826,973),(825.5,974),(825.5,975),(826,976),(826,977),(826,978),(826,979),(826,980),(826,981),(826,982),(825.5,983),(825.5,984),(825.5,985),(825.5,986),(825.5,987),(825.5,988),(825.5,989),(825,990),(825,991),(825,992),(825,993),(825,994),(825,995),(825.5,996),(825,997),(825,998),(825,999),(825,1000),(825,1001),(825,1002),(825,1003),(825,1004),(825,1005),(825,1006),(825,1007),(825,1008),(825,1009),(825,1010),(825,1011),(825,1012),(825.5,1013),(825.5,1014),(825.5,1015),(825.5,1016),(825.5,1017),(825.5,1018),(826,1019),(826,1020),(826,1021),(826,1022),(826,1023),(826,1024),(826,1025),(826,1026),(826,1027),(826,1028),(826,1029),(826,1030),(826,1031),(828.5,1032),(828.5,1033),(828.5,1034),(828.5,1035),(829.5,1036),(830,1037),(830,1038),(830,1039),(830.5,1040),(830.5,1041),(832,1042),(839.5,1043),(839.5,1044),(839.5,1045),(839.5,1046),(843,1047),(839.5,1048),(838.5,1049),(835.5,1050),(835.5,1051),(826.5,1052),(826.5,1053),(826.5,1054),(823,1055),(819,1056),(817,1057),(814.5,1058),(811,1059),(810.5,1060),(800.5,1061),(800.5,1062),(800.5,1063),(801,1064),(801,1065),(801,1066),(801,1067),(801,1068),(801,1069),(800,1070),(800,1071),(800,1072),(800,1073),(800,1074),(800,1075),(799.5,1076),(799.5,1077),(799.5,1078),(799.5,1079),(799.5,1080),(799.5,1081),(799.5,1082),(799.5,1083),(799,1084),(799,1085),(799,1086),(799,1087),(799,1088),(799,1089),(799,1090),(798.5,1091),(798.5,1092),(798.5,1093),(798.5,1094),(798.5,1095),(798.5,1096),(798.5,1097),(798,1098),(798,1099),(798,1100),(798,1101),(798,1102),(798,1103),(798,1104),(798,1105),(798,1106),(798,1107),(798,1108),(798,1109),(798,1110),(798,1111),(798.5,1112),(798.5,1113),(798.5,1114),(798.5,1115),(798.5,1116),(798.5,1117),(798.5,1118),(798.5,1119),(798.5,1120),(798.5,1121),(798.5,1122),(798.5,1123),(798.5,1124),(798,1125),(798,1126),(798,1127),(798,1128),(798.5,1129),(798.5,1130),(798.5,1131),(798.5,1132),(798.5,1133),(798.5,1134),(798.5,1135),(798.5,1136),(798.5,1137),(798.5,1138),(798.5,1139),(798.5,1140),(798,1141),(798,1142),(798,1143),(798,1144),(798,1145),(797.5,1146),(797.5,1147),(797.5,1148),(797.5,1149),(797.5,1150),(797.5,1151),(797.5,1152),(797.5,1153),(797.5,1154),(797.5,1155),(797.5,1156),(797.5,1157),(797.5,1158),(797.5,1159),(798,1160),(798,1161),(798,1162),(798,1163),(798,1164),(798.5,1165),(798.5,1166),(799,1167),(799,1168),(799,1169),(799,1170),(799,1171),(799,1172),(799.5,1173),(799.5,1174),(800,1175),(800,1176),(800,1177),(799.5,1178),(799.5,1179),(800.5,1180),(800.5,1181),(800.5,1182),(800.5,1183),(801.5,1184),(801.5,1185),(804.5,1186),(804.5,1187),(804.5,1188),(805.5,1189),(806.5,1190),(809.5,1191),(816,1192),(816,1193),(817,1194),(820.5,1195),(816.5,1199),(816,1200),(813.5,1201),(813,1202),(812.5,1203),(806.5,1204),(796,1205),(796,1206),(793.5,1207),(792.5,1208),(792.5,1209),(792,1210),(792,1211),(792,1212),(792,1213),(792,1214),(791,1215),(790.5,1216),(790,1217),(788.5,1218),(788.5,1219),(788.5,1220),(788.5,1221),(788.5,1222),(788,1223),(788,1224),(788,1225),(786,1226),(786,1227),(786,1228),(786,1229),(786,1230),(786,1231),(786,1232),(786,1233),(786,1234),(786,1235),(786.5,1236),(786.5,1237),(786.5,1238),(786.5,1239),(786.5,1240),(786.5,1241),(786.5,1242),(786.5,1243),(786.5,1244),(786.5,1245),(786.5,1246),(787,1247),(787.5,1248),(787.5,1249),(787.5,1250),(787.5,1251),(787,1252),(787,1253),(787,1254),(787,1255),(787,1256),(787,1257),(787,1258),(787,1259),(787,1260),(787,1261),(787,1262),(787,1263),(787,1264),(787,1265),(787,1266),(787,1267),(787.5,1268),(787,1269),(787.5,1270),(788,1271),(788,1272),(788,1273),(788,1274),(788,1275),(788,1276),(788,1277),(788,1278),(788,1279),(788,1280),(788,1281),(788,1282),(787.5,1283),(787.5,1284),(787.5,1285),(787,1286),(787,1287),(787,1288),(787,1289),(787,1290),(787,1291),(787.5,1292),(787.5,1293),(787.5,1294),(787.5,1295),(787.5,1296),(787.5,1297),(787.5,1298),(787.5,1299),(787.5,1300),(787.5,1301),(787.5,1302),(788.5,1303),(788.5,1304),(788.5,1305),(788.5,1306),(788.5,1307),(788.5,1308),(788.5,1309),(788.5,1310),(788.5,1311),(788.5,1312),(788.5,1313),(789.5,1314),(789.5,1315),(791.5,1316),(791.5,1317),(791.5,1318),(791.5,1319),(793,1320),(793.5,1321),(794,1322),(794.5,1323),(797,1324),(798,1325),(798,1326),(798.5,1327),(798.5,1328),(799,1329),(805.5,1330),(806.5,1331),(807,1332),(807.5,1333),(809,1334),(809,1335),(809,1336),(810,1337),(812,1338),(810,1339),(809.5,1340),(807.5,1341),(806,1342),(806,1343),(803.5,1344),(803.5,1345),(803.5,1346),(803,1347),(803,1348),(803,1349),(803,1350),(802.5,1351),(802.5,1352),(802.5,1353),(802.5,1354),(802.5,1355),(802.5,1356),(802.5,1357),(802.5,1358),(802.5,1359),(802.5,1360),(803,1361),(803,1362),(803,1363),(803,1364),(802.5,1365),(802,1366),(802,1367),(802,1368),(802,1369),(802,1370),(802,1371),(802,1372),(802,1373),(802,1374),(801.5,1375),(801.5,1376),(801.5,1377),(801.5,1378),(801.5,1379),(801.5,1380),(802,1381),(802,1382),(802,1383),(802,1384),(802,1385),(802,1386),(802,1387),(802.5,1388),(802.5,1389),(802.5,1390),(802.5,1391),(802.5,1392),(802.5,1393),(802.5,1394),(802.5,1395),(803,1396),(803,1397),(803,1398),(803,1399),(802.5,1400),(802.5,1401),(802.5,1402),(802.5,1403),(802.5,1404),(802.5,1405),(802.5,1406),(802.5,1407),(802.5,1408),(802.5,1409),(802.5,1410),(802,1411),(802,1412),(802,1413),(802,1414),(802,1415),(802,1416),(802,1417),(802.5,1418),(802.5,1419),(802.5,1420),(802.5,1421),(802.5,1422),(802.5,1423),(802.5,1424),(802.5,1425),(802.5,1426),(802.5,1427),(802.5,1428),(802.5,1429),(802.5,1430),(802.5,1431),(803,1432),(803,1433),(803,1434),(803,1435),(803.5,1436),(804,1437),(805,1438),(805,1439),(805,1440),(805,1441),(805.5,1442),(805.5,1443),(805.5,1444),(806.5,1445),(806.5,1446),(807,1447),(807,1448),(807,1449),(807,1450),(806.5,1451),(806.5,1452),(806.5,1453),(807.5,1454),(807.5,1455),(807.5,1456),(807.5,1457),(807.5,1458),(808,1459),(810.5,1460),(810.5,1461),(812,1462),(813,1463),(811.5,1464),(811,1465),(810.5,1466),(810.5,1467),(810.5,1468),(810,1469),(810,1470),(810,1471),(810,1472),(810,1473),(810,1474),(810,1475),(810,1476),(810,1477),(810,1478),(810,1479),(810,1480),(810,1481),(810,1482),(810,1483),(810.5,1484),(810.5,1485),(810.5,1486),(810.5,1487),(812,1488),(812,1489),(812,1490),(812.5,1491),(812.5,1492),(812.5,1493),(812.5,1494),(812.5,1495),(812.5,1496),(812.5,1497),(812.5,1498),(812.5,1499),(813,1500),(813,1503),(813,1504),(814,1505),(815,1506),(815,1507),(815,1508),(815.5,1509),(816,1510),(817,1511),(817,1512),(817,1513),(817,1514),(817,1515),(817.5,1516),(818,1517),(818,1518),(818,1519),(818,1520),(819.5,1521)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="721"
+	Y="278"
+	Clr="0"
+	Text="line points: ((880.00, 276.00), ...) [1232]"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2464"
+	Value="880,276,880,277,880,278,879.5,279,879.5,280,880,281,880,282,880,283,880,284,880,285,880,286,880,287,880,288,880,289,879,290,879,291,879,292,879,293,879,294,878.5,295,878.5,296,878.5,297,878.5,298,878.5,299,878.5,300,878.5,301,878,302,878,303,878,304,878,305,878,306,878,307,878.5,308,878.5,309,878.5,310,878.5,311,878.5,312,878.5,313,878.5,314,878.5,315,878.5,316,878.5,317,878.5,318,878.5,319,878.5,320,878,321,878,322,877.5,323,877.5,324,877.5,325,877.5,326,877.5,327,877.5,328,877.5,329,877,330,877,331,877,332,877,333,877,334,877,335,877,336,877,337,877,338,877,339,877,340,877,341,877,342,877,343,877,344,877,345,877,346,877,347,877,348,877,349,877.5,350,877.5,351,877,352,877,353,877,354,877,355,877,356,877,357,877,358,877,359,877,360,877,361,877,362,877,363,877,364,876.5,365,876.5,366,876.5,367,876.5,368,877,369,877.5,370,880,371,880,372,881,373,881.5,374,882,375,882,376,887,380,885,381,874.5,382,874,383,872,388,871,389,869,390,860,391,859.5,392,849.5,393,849.5,394,849,395,849,396,849,397,849,398,849,399,849,400,849,401,849,402,849,403,849,404,849,405,849,406,849,407,849,408,848.5,409,848.5,410,848.5,411,848.5,412,848.5,413,848.5,414,848.5,415,848.5,416,847.5,417,847.5,418,847.5,419,847.5,420,847.5,421,847.5,422,847,423,846.5,424,846.5,425,846.5,426,846,427,846,428,846,429,846,430,846.5,431,846.5,432,846.5,433,846.5,434,846.5,435,846.5,436,846.5,437,846.5,438,846.5,439,846.5,440,846.5,441,846.5,442,847,443,847,444,846.5,445,846.5,446,846.5,447,846.5,448,846.5,449,846.5,450,846.5,451,846.5,452,846.5,453,846.5,454,846.5,455,846.5,456,846.5,457,846.5,458,846.5,459,846.5,460,846.5,461,846.5,462,846.5,463,846.5,464,846.5,465,846.5,466,846.5,467,846.5,468,846.5,469,846.5,470,846.5,471,846.5,472,846,473,846,474,846,475,846,476,846,477,846,478,846,479,846,480,846,481,846,482,846,483,846,484,846,485,846.5,486,846.5,487,846.5,488,846.5,489,846.5,490,846.5,491,846.5,492,846.5,493,846.5,494,846.5,495,846.5,496,846.5,497,846.5,498,846.5,499,847,500,847,501,847,502,847,503,847,504,847.5,505,848,506,847.5,507,847.5,508,847.5,509,848,510,848.5,511,862,513,861.5,514,858,515,856.5,516,854,517,852.5,518,851.5,519,851.5,520,849.5,521,848.5,522,846.5,523,845.5,524,843,525,842,526,840.5,527,840,528,839.5,529,839,530,838,531,837.5,532,837.5,533,837.5,534,837.5,535,837.5,536,837.5,537,837.5,538,837.5,539,837.5,540,837.5,541,837.5,542,837.5,543,837.5,544,837.5,545,837.5,546,837.5,547,837.5,548,837.5,549,837.5,550,837,551,837,552,837,553,837,554,837,555,837,556,837,557,837,558,837,559,837,560,837,561,837,562,837,563,837,564,837,565,837.5,566,837.5,567,837.5,568,837.5,569,838,570,838,571,838,572,838,573,838,574,838,575,838,576,838,577,838,578,838,579,837.5,580,837.5,581,837.5,582,837.5,583,837.5,584,837.5,585,837.5,586,837.5,587,837.5,588,837.5,589,837.5,590,837.5,591,837.5,592,837.5,593,837,594,837,595,837,596,837,597,837,598,837,599,837,600,837,601,837,602,837,603,837,604,837,605,837,606,837,607,838,608,838,609,838,610,838,611,838,612,838,613,838,614,838,615,838,616,838,617,838,618,838,619,838,620,838,621,838,622,838.5,623,838.5,624,838.5,625,838.5,626,838.5,627,838.5,628,839,629,839,630,839,631,839.5,632,839.5,633,840.5,634,840.5,635,840.5,636,840.5,637,840.5,638,840.5,639,841,640,843,641,842.5,642,844.5,643,844.5,644,847,645,848.5,646,852.5,647,852,648,850.5,649,846.5,650,845,651,842.5,652,840,653,840,654,840,655,839.5,656,838,657,838,658,835,659,834.5,660,832,661,831.5,662,830.5,663,830.5,664,829.5,665,829.5,666,829.5,667,829,668,829,669,828.5,670,828.5,671,828,672,828,673,828,674,828,675,827.5,676,827.5,677,827.5,678,827.5,679,827.5,680,827.5,681,827.5,682,827.5,683,827.5,684,827.5,685,827.5,686,828,687,828,688,828,689,827.5,690,827.5,691,827,692,827,693,826.5,694,826.5,695,826.5,696,826.5,697,826.5,698,826.5,699,826.5,700,826.5,701,826.5,702,826.5,703,826.5,704,826.5,705,826.5,706,827,707,827,708,827.5,709,827.5,710,827.5,711,827,712,826.5,713,826.5,714,826.5,715,826.5,716,826,717,825.5,718,825.5,719,825.5,720,825.5,721,825.5,722,825.5,723,825.5,724,825.5,725,825.5,726,825.5,727,825.5,728,825,729,825.5,730,826,731,826,732,826,733,826,734,826.5,735,826.5,736,826.5,737,826.5,738,826.5,739,826.5,740,826,741,826,742,825.5,743,825.5,744,825.5,745,825.5,746,825.5,747,825.5,748,825,749,825,750,825,751,825,752,825,753,825,754,825,755,825.5,756,825.5,757,825.5,758,826,759,826,760,826,761,827,762,827,763,827,764,827,765,828,766,828,767,833,768,833,769,833,770,833,771,833,772,833,773,833,774,833,775,833.5,776,842,777,842,778,841.5,779,837,780,836,781,836,782,833.5,783,833,784,831,785,830,786,828.5,787,828.5,788,827.5,789,827.5,790,827.5,791,827.5,792,827.5,793,827.5,794,827.5,795,826.5,796,826,797,826,798,826,799,826,800,826,801,826,802,826,803,825,804,824.5,805,824.5,806,824.5,807,824.5,808,824.5,809,824.5,810,824,811,824,812,824,813,824,814,824,815,824,816,824,817,824,818,824,819,824,820,824,821,824,822,824,823,824,824,824,825,824.5,826,824.5,827,824.5,828,824.5,829,824.5,830,824,831,824,832,824.5,833,824.5,834,824.5,835,824.5,836,824.5,837,824.5,838,824.5,839,824.5,840,824.5,841,824.5,842,824.5,843,824.5,844,824,845,823,846,822,847,822,848,821.5,849,821.5,850,821.5,851,821.5,852,821.5,853,821.5,854,821.5,855,821,856,821.5,857,821.5,858,821.5,859,821.5,860,821.5,861,821.5,862,821.5,863,821.5,864,822,865,822,866,822.5,867,822.5,868,823,869,823,870,823,871,823.5,872,823,873,822.5,874,822.5,875,822.5,876,822.5,877,822.5,878,822.5,879,822.5,880,822.5,881,822.5,882,822.5,883,822.5,884,822.5,885,822.5,886,822.5,887,822,888,822.5,889,822.5,890,822.5,891,822.5,892,822.5,893,823.5,894,823.5,895,823.5,896,823.5,897,823.5,898,824,899,827.5,900,827.5,901,827.5,902,828,903,831.5,904,831.5,905,833,906,836,907,837,908,843.5,909,833,911,833,912,832.5,913,832.5,914,830,915,829.5,916,827,917,826.5,918,828.5,919,829.5,920,829.5,921,830,922,828.5,923,828.5,924,828.5,925,828.5,926,828.5,927,828.5,928,828.5,929,828.5,930,828.5,931,828.5,932,828.5,933,827.5,934,827.5,935,827.5,936,827.5,937,827.5,938,827.5,939,827.5,940,827.5,941,827.5,942,827.5,943,827.5,944,827.5,945,827.5,946,827.5,947,828,948,827,949,827,950,827,951,827,952,827,953,826.5,954,826.5,955,826.5,956,826.5,957,826.5,958,826.5,959,826.5,960,826.5,961,826.5,962,826.5,963,826.5,964,826.5,965,826,966,826,967,826,968,826,969,826,970,826,971,826,972,826,973,825.5,974,825.5,975,826,976,826,977,826,978,826,979,826,980,826,981,826,982,825.5,983,825.5,984,825.5,985,825.5,986,825.5,987,825.5,988,825.5,989,825,990,825,991,825,992,825,993,825,994,825,995,825.5,996,825,997,825,998,825,999,825,1000,825,1001,825,1002,825,1003,825,1004,825,1005,825,1006,825,1007,825,1008,825,1009,825,1010,825,1011,825,1012,825.5,1013,825.5,1014,825.5,1015,825.5,1016,825.5,1017,825.5,1018,826,1019,826,1020,826,1021,826,1022,826,1023,826,1024,826,1025,826,1026,826,1027,826,1028,826,1029,826,1030,826,1031,828.5,1032,828.5,1033,828.5,1034,828.5,1035,829.5,1036,830,1037,830,1038,830,1039,830.5,1040,830.5,1041,832,1042,839.5,1043,839.5,1044,839.5,1045,839.5,1046,843,1047,839.5,1048,838.5,1049,835.5,1050,835.5,1051,826.5,1052,826.5,1053,826.5,1054,823,1055,819,1056,817,1057,814.5,1058,811,1059,810.5,1060,800.5,1061,800.5,1062,800.5,1063,801,1064,801,1065,801,1066,801,1067,801,1068,801,1069,800,1070,800,1071,800,1072,800,1073,800,1074,800,1075,799.5,1076,799.5,1077,799.5,1078,799.5,1079,799.5,1080,799.5,1081,799.5,1082,799.5,1083,799,1084,799,1085,799,1086,799,1087,799,1088,799,1089,799,1090,798.5,1091,798.5,1092,798.5,1093,798.5,1094,798.5,1095,798.5,1096,798.5,1097,798,1098,798,1099,798,1100,798,1101,798,1102,798,1103,798,1104,798,1105,798,1106,798,1107,798,1108,798,1109,798,1110,798,1111,798.5,1112,798.5,1113,798.5,1114,798.5,1115,798.5,1116,798.5,1117,798.5,1118,798.5,1119,798.5,1120,798.5,1121,798.5,1122,798.5,1123,798.5,1124,798,1125,798,1126,798,1127,798,1128,798.5,1129,798.5,1130,798.5,1131,798.5,1132,798.5,1133,798.5,1134,798.5,1135,798.5,1136,798.5,1137,798.5,1138,798.5,1139,798.5,1140,798,1141,798,1142,798,1143,798,1144,798,1145,797.5,1146,797.5,1147,797.5,1148,797.5,1149,797.5,1150,797.5,1151,797.5,1152,797.5,1153,797.5,1154,797.5,1155,797.5,1156,797.5,1157,797.5,1158,797.5,1159,798,1160,798,1161,798,1162,798,1163,798,1164,798.5,1165,798.5,1166,799,1167,799,1168,799,1169,799,1170,799,1171,799,1172,799.5,1173,799.5,1174,800,1175,800,1176,800,1177,799.5,1178,799.5,1179,800.5,1180,800.5,1181,800.5,1182,800.5,1183,801.5,1184,801.5,1185,804.5,1186,804.5,1187,804.5,1188,805.5,1189,806.5,1190,809.5,1191,816,1192,816,1193,817,1194,820.5,1195,816.5,1199,816,1200,813.5,1201,813,1202,812.5,1203,806.5,1204,796,1205,796,1206,793.5,1207,792.5,1208,792.5,1209,792,1210,792,1211,792,1212,792,1213,792,1214,791,1215,790.5,1216,790,1217,788.5,1218,788.5,1219,788.5,1220,788.5,1221,788.5,1222,788,1223,788,1224,788,1225,786,1226,786,1227,786,1228,786,1229,786,1230,786,1231,786,1232,786,1233,786,1234,786,1235,786.5,1236,786.5,1237,786.5,1238,786.5,1239,786.5,1240,786.5,1241,786.5,1242,786.5,1243,786.5,1244,786.5,1245,786.5,1246,787,1247,787.5,1248,787.5,1249,787.5,1250,787.5,1251,787,1252,787,1253,787,1254,787,1255,787,1256,787,1257,787,1258,787,1259,787,1260,787,1261,787,1262,787,1263,787,1264,787,1265,787,1266,787,1267,787.5,1268,787,1269,787.5,1270,788,1271,788,1272,788,1273,788,1274,788,1275,788,1276,788,1277,788,1278,788,1279,788,1280,788,1281,788,1282,787.5,1283,787.5,1284,787.5,1285,787,1286,787,1287,787,1288,787,1289,787,1290,787,1291,787.5,1292,787.5,1293,787.5,1294,787.5,1295,787.5,1296,787.5,1297,787.5,1298,787.5,1299,787.5,1300,787.5,1301,787.5,1302,788.5,1303,788.5,1304,788.5,1305,788.5,1306,788.5,1307,788.5,1308,788.5,1309,788.5,1310,788.5,1311,788.5,1312,788.5,1313,789.5,1314,789.5,1315,791.5,1316,791.5,1317,791.5,1318,791.5,1319,793,1320,793.5,1321,794,1322,794.5,1323,797,1324,798,1325,798,1326,798.5,1327,798.5,1328,799,1329,805.5,1330,806.5,1331,807,1332,807.5,1333,809,1334,809,1335,809,1336,810,1337,812,1338,810,1339,809.5,1340,807.5,1341,806,1342,806,1343,803.5,1344,803.5,1345,803.5,1346,803,1347,803,1348,803,1349,803,1350,802.5,1351,802.5,1352,802.5,1353,802.5,1354,802.5,1355,802.5,1356,802.5,1357,802.5,1358,802.5,1359,802.5,1360,803,1361,803,1362,803,1363,803,1364,802.5,1365,802,1366,802,1367,802,1368,802,1369,802,1370,802,1371,802,1372,802,1373,802,1374,801.5,1375,801.5,1376,801.5,1377,801.5,1378,801.5,1379,801.5,1380,802,1381,802,1382,802,1383,802,1384,802,1385,802,1386,802,1387,802.5,1388,802.5,1389,802.5,1390,802.5,1391,802.5,1392,802.5,1393,802.5,1394,802.5,1395,803,1396,803,1397,803,1398,803,1399,802.5,1400,802.5,1401,802.5,1402,802.5,1403,802.5,1404,802.5,1405,802.5,1406,802.5,1407,802.5,1408,802.5,1409,802.5,1410,802,1411,802,1412,802,1413,802,1414,802,1415,802,1416,802,1417,802.5,1418,802.5,1419,802.5,1420,802.5,1421,802.5,1422,802.5,1423,802.5,1424,802.5,1425,802.5,1426,802.5,1427,802.5,1428,802.5,1429,802.5,1430,802.5,1431,803,1432,803,1433,803,1434,803,1435,803.5,1436,804,1437,805,1438,805,1439,805,1440,805,1441,805.5,1442,805.5,1443,805.5,1444,806.5,1445,806.5,1446,807,1447,807,1448,807,1449,807,1450,806.5,1451,806.5,1452,806.5,1453,807.5,1454,807.5,1455,807.5,1456,807.5,1457,807.5,1458,808,1459,810.5,1460,810.5,1461,812,1462,813,1463,811.5,1464,811,1465,810.5,1466,810.5,1467,810.5,1468,810,1469,810,1470,810,1471,810,1472,810,1473,810,1474,810,1475,810,1476,810,1477,810,1478,810,1479,810,1480,810,1481,810,1482,810,1483,810.5,1484,810.5,1485,810.5,1486,810.5,1487,812,1488,812,1489,812,1490,812.5,1491,812.5,1492,812.5,1493,812.5,1494,812.5,1495,812.5,1496,812.5,1497,812.5,1498,812.5,1499,813,1500,813,1503,813,1504,814,1505,815,1506,815,1507,815,1508,815.5,1509,816,1510,817,1511,817,1512,817,1513,817,1514,817,1515,817.5,1516,818,1517,818,1518,818,1519,818,1520,819.5,1521"
+/>
+</Annot>
+</id10>
+<id11
+	RtId="199743088"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="1232"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="point count: 1232.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+</Outputs>
+<Params>
+<id0
+	RtName="line width"
+	RtType="2"
+	RtId="197210800"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="16"
+/>
+</id0>
+<id1
+	RtName="min. strength"
+	RtType="2"
+	RtId="197211104"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="40"
+/>
+</id1>
+<id2
+	RtName="direction"
+	RtType="2"
+	RtId="197211408"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="2"
+/>
+</id2>
+<id3
+	RtName="use"
+	RtType="2"
+	RtId="197212016"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="2"
+/>
+</id3>
+<id4
+	RtName="% outlier ignore"
+	RtType="2"
+	RtId="197212624"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id4>
+<id5
+	RtName="find tip"
+	RtType="2"
+	RtId="199748160"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id5>
+<id6
+	RtName="display dots"
+	RtType="2"
+	RtId="199750592"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id6>
+<id9
+	RtName="display line"
+	RtType="2"
+	RtId="199751200"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id9>
+<id7
+	RtName="tip end filter"
+	RtType="2"
+	RtId="199751808"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id7>
+<id8
+	RtName="shift tip search"
+	RtType="2"
+	RtId="199748464"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id8>
+</Params>
+</Algorithm>
+<Algorithm
+	AlgIndex="2"
+	RtName="algB"
+	RtType="5"
+	RtId="197849952"
+	ParentInstr="200771616"
+	InstrType="19"
+	Collapsed="1"
+	ProxyHandleRtId="0"
+	SoRtId="200771616"
+	Tag="CODE_REVE_V007-ROI.BLOB-algB"
+	ImgProcId="_CIpeRectOutsideCaliper2_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="199738448"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="567.85000000000002,967"
+/>
+<Annot
+	Type="1"
+	X="947"
+	Y="964"
+	Clr="0"
+	Text="point 1: (567.85, 967.00)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="567.85,967"
+/>
+</Annot>
+</id0>
+<id1
+	RtId="199740304"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="1061.4347826086955,967"
+/>
+<Annot
+	Type="1"
+	X="1498"
+	Y="964"
+	Clr="0"
+	Text="point 2: (1061.43, 967.00)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="1061.43,967"
+/>
+</Annot>
+</id1>
+<id2
+	RtId="199741232"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="6"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="strength 1: 6.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+<id3
+	RtId="199737520"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="17"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="strength 2: 17.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id6
+	RtId="199819696"
+	ConnVar="188927280"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="7"
+	Val="-1.5707963267948963,567.85000000000002"
+/>
+<Annot
+	Type="3"
+	X="358"
+	Y="931"
+	Clr="0"
+	Text="edge 1: (-1.57, 567.85)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="-1.5708,567.85"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="199815984"
+	ConnVar="188928160"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="7"
+	Val="-1.5707963267948963,1061.4347826086955"
+/>
+<Annot
+	Type="3"
+	X="334"
+	Y="1298"
+	Clr="0"
+	Text="edge 2: (-1.57, 1061.43)"
+	Display="1"
+	Highlight="0"
+	So="199649904">
+<Coord
+	Size="2"
+	Value="-1.5708,1061.43"
+/>
+</Annot>
+</id7>
+<id4
+	RtId="199810416"
+	ConnVar="188940480"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="493.58478260869549"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dist between edges: 493.58"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="199820624"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="edges detected: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+</Outputs>
+<Params>
+<id0
+	RtName="edge profile"
+	RtType="2"
+	RtId="199747248"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="smoothing"
+	RtType="2"
+	RtId="199748768"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="detector size"
+	RtType="2"
+	RtId="199752416"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id2>
+<id3
+	RtName="min edge1 strength"
+	RtType="2"
+	RtId="199749376"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id3>
+<id4
+	RtName="min edge2 strength"
+	RtType="2"
+	RtId="199749680"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="8"
+/>
+</id4>
+<id5
+	RtName="edge type"
+	RtType="2"
+	RtId="199751504"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id5>
+<id6
+	RtName="strength tolerance"
+	RtType="2"
+	RtId="199749072"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id6>
+<id7
+	RtName="center stop"
+	RtType="2"
+	RtId="199747552"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id7>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="200758400"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="ProcessResult"
+	RtType="5"
+	RtId="199831328"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="// verificar se distancia do caliper esta no valores aceites&#xD;if (Vars.blob_edge_dist&lt;Vars.blob_edge_dist_max_pmt &amp;&amp; Vars.blob_edge_dist&gt;Vars.blob_edge_dist_min_pmt) {&#xD;	Vars.blob_dist_result=true&#xD;	Vars.blob_caliper_colour=65280&#xD;&#xD;}&#xD;	else {&#xD;	Vars.blob_dist_result=false&#xD;	Vars.blob_caliper_colour=255&#xD;}&#xD;&#xD;&#xD;&#xD;// verificar se a area do bloc esta nos valores aceites&#xD;if(Vars.blob_area&lt;Vars.blob_area_max_pmt &amp;&amp; Vars.blob_area_min_pmt&lt;Vars.blob_area)  {&#xD;Vars.blob_area_result=true &#xD;Vars.blob_area_colour=65280&#xD; }&#xD;else {&#xD;Vars.blob_area_result=false&#xD;Vars.blob_area_colour=255}&#xD;&#xD;&#xD;&#xD;&#xD;if(Vars.blob_area_result &amp;&amp; Vars.blob_dist_result ) {&#xD;	Vars.blob_result=true&#xD;	Vars.blob_result_string= &quot;Caliper OK&quot;	&#xD;Vars.blob_result_colour=65280&#xD;}&#xD;else {&#xD;Vars.blob_result=false;&#xD;Vars.blob_result_string= &quot;Caliper Not Ok&quot;;&#xD;Vars.blob_result_colour=255&#xD;}">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="**** user comment ****"
+	RtType="5"
+	RtId="199154624"
+	ParentInstr="0"
+	InstrType="21"
+	Collapsed="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="annote aqc status"
+	RtType="5"
+	RtId="199157504"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-annote_aqc_status">
+<Inputs>
+<id0
+	RtId="199040560"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1900,100"
+/>
+</id0>
+<id1
+	RtId="198264032"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="acq status: [blob_acqstatus] \\ [img_blob_acqtime] ms"
+/>
+</id1>
+<id2
+	RtId="198264272"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="198257312"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200783408"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Calibri;40"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Blob Edge Dist"
+	RtType="5"
+	RtId="199153344"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Blob_Edge_Dist">
+<Inputs>
+<id0
+	RtId="200783168"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1600,400"
+/>
+</id0>
+<id1
+	RtId="200783648"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Caliper: [blob_edge_dist_min_pmt] &lt; [blob_edge_dist] &lt; [blob_edge_dist_max_pmt]"
+/>
+</id1>
+<id2
+	RtId="200779328"
+	Connected="188936432">
+<Obj
+	Type="3"
+	Val="65280"
+/>
+</id2>
+<id3
+	RtId="200781488"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200782928"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Calibri;40"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Blob Area"
+	RtType="5"
+	RtId="199157824"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Blob_Area">
+<Inputs>
+<id0
+	RtId="200783888"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1600,500"
+/>
+</id0>
+<id1
+	RtId="200780288"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Blob: [blob_area_min_pmt] &lt; [blob_area] &lt; [blob_area_max_pmt]"
+/>
+</id1>
+<id2
+	RtId="200780768"
+	Connected="188936784">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200777648"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200778368"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Calibri;40"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Caliper L1"
+	RtType="5"
+	RtId="199158144"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Caliper_L1">
+<Inputs>
+<id0
+	RtId="200781728"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1900,700"
+/>
+</id0>
+<id1
+	RtId="200779568"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Caliper L1: [blob_caliper_L1]"
+/>
+</id1>
+<id2
+	RtId="200781968"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200777888"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200784128"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Calibri;40"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Caliper L2"
+	RtType="5"
+	RtId="199153664"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Caliper_L2">
+<Inputs>
+<id0
+	RtId="200779808"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1900,800"
+/>
+</id0>
+<id1
+	RtId="200780048"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Caliper L2: [blob_caliper_L2]"
+/>
+</id1>
+<id2
+	RtId="200785088"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200781008"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200780528"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Calibri;40"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Result Until"
+	RtType="5"
+	RtId="199150464"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Result_Until">
+<Inputs>
+<id0
+	RtId="200781248"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1600,1650"
+/>
+</id0>
+<id1
+	RtId="200782208"
+	Connected="188928688">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="200784368"
+	Connected="188936960">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200782688"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200779088"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Century Gothic Negrito;64"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Date Time"
+	RtType="5"
+	RtId="199150784"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Date_Time">
+<Inputs>
+<id0
+	RtId="200782448"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1800,1800"
+/>
+</id0>
+<id1
+	RtId="200784608"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="[GIDstring] - [date] - [time]"
+/>
+</id1>
+<id2
+	RtId="200784848"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id2>
+<id3
+	RtId="200778128"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200785328"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Arial Rounded MT;32"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="**** user comment ****"
+	RtType="5"
+	RtId="199151744"
+	ParentInstr="0"
+	InstrType="21"
+	Collapsed="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="callA"
+	RtType="5"
+	RtId="197858048"
+	ParentInstr="0"
+	InstrType="9"
+	Collapsed="0"
+	CalledSub="199490288">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="199151424"
+	ParentInstr="199649904"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="199649904"
+/>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="199152064"
+	ParentInstr="199651968"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="199651968"
+/>
+<Instruction
+	FormulaId="_Ipe_Array_CPArrResize_"
+	RtName="ResizeA"
+	RtType="5"
+	RtId="200787776"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-ResizeA">
+<Inputs>
+<id0
+	RtId="200778608"
+	Connected="188925696">
+<Obj
+	Type="4100">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+</id0>
+<id1
+	RtId="200778848"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="199811344"
+	ConnVar="188925696"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="1"
+	Value="(861.48796192499856,255.00020387483039)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="2"
+	Clr="0"
+	Text="new array: ((861.49, 255.00), ...) [1]"
+	Display="1"
+	Highlight="0"
+	So="199651968">
+<Coord
+	Size="2"
+	Value="861.488,255"
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="ROIEDGE"
+	RtType="5"
+	RtId="199832160"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="67109120"
+	Interpolate="0"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="-4"
+	HdrLocY="771"
+	WriteChanges="1"
+	Locked="0"
+	Selected="1"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="199651968"
+	RoiAlignId="0">
+<Coords
+	Rotation="1.5700000000000001"
+	Elements="2">
+<Val
+	Size="2"
+	Value="(-9,776),(1733,1020)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="1.5700000000000001"
+	Elements="2">
+<Val
+	Size="2"
+	Value="(-9,776),(1733,1020)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algH"
+	RtType="5"
+	RtId="197845904"
+	ParentInstr="199832160"
+	InstrType="19"
+	Collapsed="0"
+	ProxyHandleRtId="0"
+	SoRtId="199832160"
+	Tag="CODE_REVE_V007-ROIEDGE-algH"
+	ImgProcId="_CIpeRectDetectEdges_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="199812272"
+	ConnVar="188925696"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="11"
+	Value="(861.46247947025506,223.00021402101163),(861.5445011214606,326.00018136299059),(861.68744176603718,505.50012444925494),(861.79693668876303,643.00008085238221),(861.90284814129052,776.00003868231613),(862.01114857395032,911.99999556104569),(862.11944900661001,1047.9999524397751),(862.23571270637706,1193.9999061478229),(862.3452076291029,1331.4998625509502),(862.44833193814281,1460.9998214906229),(862.55344706395965,1592.9997796376251)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="2"
+	Clr="0"
+	Text="position: ((861.46, 223.00), ...) [11]"
+	Display="1"
+	Highlight="1"
+	So="199651968">
+<Coord
+	Size="22"
+	Value="861.462,223,861.544,326,861.687,505.5,861.797,643,861.903,776,862.011,912,862.119,1048,862.236,1194,862.345,1331.5,862.448,1461,862.553,1593"
+/>
+</Annot>
+</id0>
+<id1
+	RtId="199816912"
+	ConnVar="188927104"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="11"
+	Value="5,6,15,17,12,13,12,13,11,7,9"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="strength: ((5.00), ...) [11]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id3
+	RtId="199822480"
+	ConnVar="188926224"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="11"
+	Value="196,299,478.5,616,749,885,1021,1167,1304.5,1434,1566"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="distance from starting point: ((196.00), ...) [11]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="199817840"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4102">
+<Val
+	Size="11"
+	Value="(-0.00079632679489643457,223.68614889743944),(-0.00079632679489643414,326.68614889743947),(-0.00079632679489643576,506.18614889743947),(-0.00079632679489643273,643.68614889743958),(-0.00079632679489643273,776.68614889743958),(-0.00079632679489643554,912.68614889743947),(-0.0007963267948964298,1048.6861488974398),(-0.00079632679489643522,1194.6861488974394),(-0.00079632679489644118,1332.1861488974391),(-0.0007963267948964414,1461.6861488974391),(-0.00079632679489643544,1593.6861488974394)"
+/>
+</Obj>
+<Annot
+	Type="13"
+	X="2"
+	Y="19"
+	Clr="0"
+	Text="edges: ((-0.00, 223.69), ...) [11]"
+	Display="1"
+	Highlight="0"
+	So="199651968">
+<Coord
+	Size="22"
+	Value="-0.000796327,223.686,-0.000796327,326.686,-0.000796327,506.186,-0.000796327,643.686,-0.000796327,776.686,-0.000796327,912.686,-0.000796327,1048.69,-0.000796327,1194.69,-0.000796327,1332.19,-0.000796327,1461.69,-0.000796327,1593.69"
+/>
+</Annot>
+</id4>
+<id2
+	RtId="199818768"
+	ConnVar="188936080"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="11"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="edges detected: 11.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+</Outputs>
+<Params>
+<id0
+	RtName="edge profile"
+	RtType="2"
+	RtId="199746640"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="smoothing"
+	RtType="2"
+	RtId="199752720"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="detector size"
+	RtType="2"
+	RtId="199753024"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="13"
+/>
+</id2>
+<id3
+	RtName="min edge strength"
+	RtType="2"
+	RtId="199749984"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id3>
+<id4
+	RtName="edge type"
+	RtType="2"
+	RtId="199750288"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="3"
+/>
+</id4>
+<id5
+	RtName="pixels to skip"
+	RtType="2"
+	RtId="199753328"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="100"
+/>
+</id5>
+<id6
+	RtName="strength tolerance"
+	RtType="2"
+	RtId="199750896"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id6>
+<id7
+	RtName="edges to find"
+	RtType="2"
+	RtId="199752112"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="32"
+/>
+</id7>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="200758576"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CPArrSize_"
+	RtName="SizeA"
+	RtType="5"
+	RtId="200791616"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-SizeA">
+<Inputs>
+<id0
+	RtId="200796944"
+	Connected="188925696">
+<Obj
+	Type="4100">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="199815056"
+	ConnVar="188940656"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="11"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="size: 11.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_Array_CNArrMathExtrema_"
+	RtName="ExtremaA"
+	RtType="5"
+	RtId="200788736"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-ExtremaA">
+<Inputs>
+<id0
+	RtId="200800784"
+	Connected="188927104">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="199813200"
+	ConnVar="199116368"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="17"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="maximum value: 17.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id5
+	RtId="199808560"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="maximum index: 3.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id10
+	RtId="199821552"
+	ConnVar="199117072"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="5"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="minimum value: 5.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id15
+	RtId="199814128"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="minimum index: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id15>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_Array_CNMeanAndVar_"
+	RtName="MeanAndVarianceA"
+	RtType="5"
+	RtId="200791936"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-MeanAndVarianceA">
+<Inputs>
+<id0
+	RtId="200796464"
+	Connected="188927104">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="199807632"
+	ConnVar="199116896"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="10.909090909090908"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="mean: 10.91"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id5
+	RtId="199809488"
+	ConnVar="199113728"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="12.991735537190095"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="variance: 12.99"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id10
+	RtId="200816192"
+	ConnVar="200755936"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3.6044050184725487"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="standard deviation: 3.60"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id15
+	RtId="200811552"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="11"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number (count): 11.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id15>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="ProcessRoiedge"
+	RtType="5"
+	RtId="199827488"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="Vars.roiedge_result=false&#xD;&#xD;if(Vars.roiedge_cnt==11) {&#xD;Vars.roiedge_result=true&#xD;Vars.roiedge_result_string=&quot;# Wad Correct&quot;&#xD;Vars.roiedge_cnt_colour=65280.0000000000000000&#xD;	&#xD;}&#xD;	else {&#xD;	&#xD;	&#xD;	if(Vars.roiedge_cnt&lt;11) {&#xD;	Vars.roiedge_result=false	&#xD;	Vars.roiedge_result_string=&quot;Wad Missing&quot;&#xD;	Vars.roiedge_cnt_colour=255&#xD;		&#xD;	}&#xD;	else {&#xD;		Vars.roiedge_result=false	&#xD;	Vars.roiedge_result_string=&quot;Wad in Excess&quot;&#xD;	Vars.roiedge_cnt_colour=255&#xD;	}&#xD;}&#xD;&#xD;&#xD;//more stuff&#xD;var stringaux=&quot;Dist: &quot;&#xD;&#xD;for(var i=0;i&lt;10; i++) {&#xD;var aux =Vars.roiedge_dist_1point[i+1] - Vars.roiedge_dist_1point[i]&#xD;aux=Math.round(aux)&#xD;	if ( (aux &gt;50 &amp;&amp;  aux&lt; 300) | aux &lt; 1 ){		&#xD;		stringaux= stringaux + &quot; &quot; + aux	&#xD;		}&#xD;		else {&#xD;		stringaux= stringaux + &quot; &quot; + aux	&#xD;		}&#xD;}&#xD;&#xD;Vars.roiedge_distance_string=stringaux&#xD;&#xD;Vars.roiedge_first=Vars.roiedge_posic[0].y&#xD;Vars.roiedge_last=Vars.roiedge_posic[Vars.roiedge_array_size-1].y&#xD;Vars.roiedge_wadsize=Vars.roiedge_last-Vars.roiedge_first">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="**** user comment ****"
+	RtType="5"
+	RtId="200788096"
+	ParentInstr="0"
+	InstrType="21"
+	Collapsed="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="annote aqc status edge"
+	RtType="5"
+	RtId="200790336"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-annote_aqc_status_edge">
+<Inputs>
+<id0
+	RtId="200795264"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1900,100"
+/>
+</id0>
+<id1
+	RtId="200801264"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="acq status: [edge_acqstatus] \\ [img_edge_acqtime] ms"
+/>
+</id1>
+<id2
+	RtId="200801744"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200801024"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200799824"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Calibri;40"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="**** user comment ****"
+	RtType="5"
+	RtId="200786816"
+	ParentInstr="0"
+	InstrType="21"
+	Collapsed="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote RoiEdge CNT"
+	RtType="5"
+	RtId="200790016"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_RoiEdge_CNT">
+<Inputs>
+<id0
+	RtId="200797664"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1600,1300"
+/>
+</id0>
+<id1
+	RtId="200796224"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Edge Cnt = [roiedge_cnt]"
+/>
+</id1>
+<id2
+	RtId="200801504"
+	Connected="188936608">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="200800064"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200795024"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Century Gothic Negrito;64"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Date Time Edge"
+	RtType="5"
+	RtId="200786496"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Date_Time_Edge">
+<Inputs>
+<id0
+	RtId="200795504"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1800,1800"
+/>
+</id0>
+<id1
+	RtId="200799104"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="[GID] - [date] - [time]"
+/>
+</id1>
+<id2
+	RtId="200799344"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id2>
+<id3
+	RtId="200799584"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200794064"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Arial Rounded MT;32"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote RoiEdge Result "
+	RtType="5"
+	RtId="200786176"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_RoiEdge_Result_">
+<Inputs>
+<id0
+	RtId="200795744"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1600,1400"
+/>
+</id0>
+<id1
+	RtId="200795984"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="[roiedge_result_string] "
+/>
+</id1>
+<id2
+	RtId="200794304"
+	Connected="188936608">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="200797184"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200796704"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Century Gothic Negrito;64"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote dist string"
+	RtType="5"
+	RtId="200787136"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_dist_string">
+<Inputs>
+<id0
+	RtId="200800304"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1600,1600"
+/>
+</id0>
+<id1
+	RtId="200800544"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="[roiedge_distance_string]"
+/>
+</id1>
+<id2
+	RtId="200798144"
+	Connected="188936608">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="200798384"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200797424"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Arial Rounded MT;32"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Size"
+	RtType="5"
+	RtId="200792256"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Size">
+<Inputs>
+<id0
+	RtId="200797904"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1600,1650"
+/>
+</id0>
+<id1
+	RtId="200798624"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Wad Total Size: [roiedge_wadsize]"
+/>
+</id1>
+<id2
+	RtId="200794544"
+	Connected="188936608">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="200794784"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200798864"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Arial Rounded MT;32"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote_max_min"
+	RtType="5"
+	RtId="200792576"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_max_min">
+<Inputs>
+<id0
+	RtId="200825712"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1900,200"
+/>
+</id0>
+<id1
+	RtId="200827872"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Edge Str: [roiedge_edge_max] \\ [roiedge_edge_min]"
+/>
+</id1>
+<id2
+	RtId="200827152"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200822832"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200821872"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Arial Rounded MT;32"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote_mean"
+	RtType="5"
+	RtId="200789376"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_mean">
+<Inputs>
+<id0
+	RtId="200820192"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1900,300"
+/>
+</id0>
+<id1
+	RtId="200820432"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Mean:  [roiedge_mean] "
+/>
+</id1>
+<id2
+	RtId="200825952"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200820672"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200821152"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Arial Rounded MT;32"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote_var stddev"
+	RtType="5"
+	RtId="200792896"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_var_stddev">
+<Inputs>
+<id0
+	RtId="200821392"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1900,400"
+/>
+</id0>
+<id1
+	RtId="200824272"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Var: [roiedge_var]     Std Dev: [roiedge_stddev]"
+/>
+</id1>
+<id2
+	RtId="200826192"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200827632"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200820912"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Arial Rounded MT;32"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="**** user comment ****"
+	RtType="5"
+	RtId="200793216"
+	ParentInstr="0"
+	InstrType="21"
+	Collapsed="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="callA"
+	RtType="5"
+	RtId="197847744"
+	ParentInstr="0"
+	InstrType="9"
+	Collapsed="0"
+	CalledSub="199497008">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="200793536"
+	ParentInstr="199651968"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="199651968"
+/>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="200785856"
+	ParentInstr="199664352"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="199664352"
+/>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Final Result"
+	RtType="5"
+	RtId="200787456"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Final_Result">
+<Inputs>
+<id0
+	RtId="200824032"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1800,200"
+/>
+</id0>
+<id1
+	RtId="200824512"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="[FinalResult_string]"
+/>
+</id1>
+<id2
+	RtId="200823312"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id2>
+<id3
+	RtId="200821632"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200822112"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Century Gothic Negrito;64"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Result Blob"
+	RtType="5"
+	RtId="200790976"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Result_Blob">
+<Inputs>
+<id0
+	RtId="200823792"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1800,1650"
+/>
+</id0>
+<id1
+	RtId="200825472"
+	Connected="188928688">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="200822592"
+	Connected="188936960">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="200822352"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200826912"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Century Gothic Negrito;64"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Result RoiEdge_A"
+	RtType="5"
+	RtId="200789696"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="CODE_REVE_V007-Annote_Result_RoiEdge_A">
+<Inputs>
+<id0
+	RtId="200823072"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1800,1500"
+/>
+</id0>
+<id1
+	RtId="200826432"
+	Connected="188939248">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="200827392"
+	Connected="188936608">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="200823552"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200824752"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Century Gothic Negrito;64"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="Annote Date Time Edge_A"
+	RtType="5"
+	RtId="200791296"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-Annote_Date_Time_Edge_A">
+<Inputs>
+<id0
+	RtId="200824992"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="1800,1800"
+/>
+</id0>
+<id1
+	RtId="200825232"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="[GID] - [date] - [time]"
+/>
+</id1>
+<id2
+	RtId="200826672"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id2>
+<id3
+	RtId="200834400"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+<id4
+	RtId="200829600"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Arial Rounded MT;32"
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="200788416"
+	ParentInstr="199664352"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="199664352"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="199601232"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199601232">
+<Children>
+<Child
+	Id="199662288"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199662288">
+<Children>
+<Child
+	Id="199155904"
+/>
+<Child
+	Id="197866144"
+/>
+<Child
+	Id="200888176"
+/>
+<Child
+	Id="200888816"
+/>
+<Child
+	Id="197865408"
+/>
+<Child
+	Id="199649904"
+/>
+<Child
+	Id="199651968"
+/>
+<Child
+	Id="199101280"
+/>
+<Child
+	Id="199664352"
+/>
+<Child
+	Id="197848480"
+/>
+<Child
+	Id="199154304"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199649904">
+<Children>
+<Child
+	Id="199157184"
+/>
+<Child
+	Id="200771616"
+/>
+<Child
+	Id="199831328"
+/>
+<Child
+	Id="199154624"
+/>
+<Child
+	Id="199157504"
+/>
+<Child
+	Id="199153344"
+/>
+<Child
+	Id="199157824"
+/>
+<Child
+	Id="199158144"
+/>
+<Child
+	Id="199153664"
+/>
+<Child
+	Id="199150464"
+/>
+<Child
+	Id="199150784"
+/>
+<Child
+	Id="199151744"
+/>
+<Child
+	Id="197858048"
+/>
+<Child
+	Id="199151424"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199651968">
+<Children>
+<Child
+	Id="199152064"
+/>
+<Child
+	Id="200787776"
+/>
+<Child
+	Id="199832160"
+/>
+<Child
+	Id="200791616"
+/>
+<Child
+	Id="200788736"
+/>
+<Child
+	Id="200791936"
+/>
+<Child
+	Id="199827488"
+/>
+<Child
+	Id="200788096"
+/>
+<Child
+	Id="200790336"
+/>
+<Child
+	Id="200786816"
+/>
+<Child
+	Id="200790016"
+/>
+<Child
+	Id="200786496"
+/>
+<Child
+	Id="200786176"
+/>
+<Child
+	Id="200787136"
+/>
+<Child
+	Id="200792256"
+/>
+<Child
+	Id="200792576"
+/>
+<Child
+	Id="200789376"
+/>
+<Child
+	Id="200792896"
+/>
+<Child
+	Id="200793216"
+/>
+<Child
+	Id="197847744"
+/>
+<Child
+	Id="200793536"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199664352">
+<Children>
+<Child
+	Id="200785856"
+/>
+<Child
+	Id="200787456"
+/>
+<Child
+	Id="200790976"
+/>
+<Child
+	Id="200789696"
+/>
+<Child
+	Id="200791296"
+/>
+<Child
+	Id="200788416"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+<Sub
+	RtName="WriteHeader"
+	RtType="5"
+	RtId="199493648"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	FormulaId="_Ipe_System_CGetDate_"
+	RtName="GetDate"
+	RtType="5"
+	RtId="200789056"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-GetDate">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="200817120"
+	ConnVar="188928864"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="05/03/18"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="date: 05/03/18"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CGetDateFormat_"
+	RtName="GetDateFormat"
+	RtType="5"
+	RtId="200790656"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-GetDateFormat">
+<Inputs>
+<id0
+	RtId="200828400"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="yyyy-MM-dd"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200803200"
+	ConnVar="188939776"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="2018-03-05"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="formatted date: 2018-03-05"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CGetTimeFormat_"
+	RtName="GetTimeFormat"
+	RtType="5"
+	RtId="200840128"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-GetTimeFormat">
+<Inputs>
+<id0
+	RtId="200829840"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="HH-mm-ss"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200802272"
+	ConnVar="188938192"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="14-21-45"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="formatted time: 14-21-45"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CGetTime_"
+	RtName="GetTime"
+	RtType="5"
+	RtId="200836608"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-GetTime">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="200804128"
+	ConnVar="188939072"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="14:21:45"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="time: 14:21:45"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_GetMiliSecCount_"
+	RtName="GetMilliSecCount"
+	RtType="5"
+	RtId="200839168"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-GetMilliSecCount">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="200815264"
+	ConnVar="188938016"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="14816764.336987654"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="count: 14816764.34"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_String_CNumberToString_"
+	RtName="NumToString"
+	RtType="5"
+	RtId="200839488"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-NumToString">
+<Inputs>
+<id1
+	RtId="200834640"
+	Connected="188938016">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200805056"
+	ConnVar="188938544"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="14816764.337"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="string: 14816764.337"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params>
+<id0
+	RtName="Show +/-"
+	RtType="2"
+	RtId="199745728"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="Number of digits"
+	RtType="2"
+	RtId="199746032"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="8"
+/>
+</id1>
+<id2
+	RtName="Integer field padding"
+	RtType="2"
+	RtId="199746944"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtName="Number of decimal point digits"
+	RtType="2"
+	RtId="199746336"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="3"
+/>
+</id3>
+</Params>
+</Instruction>
+<Instruction
+	RtName="open file"
+	RtType="5"
+	RtId="200839808"
+	ParentInstr="0"
+	InstrType="700"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200834880"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200830080"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\LOG\[dateFormat].txt"
+/>
+</id1>
+<id2
+	RtId="200835120"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200805984"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="write file"
+	RtType="5"
+	RtId="200837888"
+	ParentInstr="0"
+	InstrType="703"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200830560"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200830800"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="\n; [date]; [time]; [GID];"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200806912"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="close file"
+	RtType="5"
+	RtId="200836928"
+	ParentInstr="0"
+	InstrType="701"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200831280"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="199493648"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199493648">
+<Children>
+<Child
+	Id="200789056"
+/>
+<Child
+	Id="200790656"
+/>
+<Child
+	Id="200840128"
+/>
+<Child
+	Id="200836608"
+/>
+<Child
+	Id="200839168"
+/>
+<Child
+	Id="200839488"
+/>
+<Child
+	Id="200839808"
+/>
+<Child
+	Id="200837888"
+/>
+<Child
+	Id="200836928"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+<Sub
+	RtName="WriteValueBlob"
+	RtType="5"
+	RtId="199490288"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="open file_A"
+	RtType="5"
+	RtId="200837248"
+	ParentInstr="0"
+	InstrType="700"
+	Collapsed="0">
+<Inputs>
+<id0
+	RtId="200831040"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200830320"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\LOG\[dateFormat].txt"
+/>
+</id1>
+<id2
+	RtId="200835360"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200807840"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="write file_A"
+	RtType="5"
+	RtId="200837568"
+	ParentInstr="0"
+	InstrType="703"
+	Collapsed="0">
+<Inputs>
+<id0
+	RtId="200831520"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200831760"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="Blob Area:;[blob_area_result];[blob_area];Blob dist:; [blob_dist_result];[blob_edge_dist];"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200808768"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="close file_A"
+	RtType="5"
+	RtId="200838208"
+	ParentInstr="0"
+	InstrType="701"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200832000"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="199490288"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199490288">
+<Children>
+<Child
+	Id="200837248"
+/>
+<Child
+	Id="200837568"
+/>
+<Child
+	Id="200838208"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+<Sub
+	RtName="WriteValueEdge"
+	RtType="5"
+	RtId="199497008"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="open file_A_A"
+	RtType="5"
+	RtId="200838528"
+	ParentInstr="0"
+	InstrType="700"
+	Collapsed="0">
+<Inputs>
+<id0
+	RtId="200832720"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200829360"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\LOG\[dateFormat].txt"
+/>
+</id1>
+<id2
+	RtId="200832240"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200809696"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="write file_A_A"
+	RtType="5"
+	RtId="200838848"
+	ParentInstr="0"
+	InstrType="703"
+	Collapsed="0">
+<Inputs>
+<id0
+	RtId="200835600"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200833200"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="roiedge; [roiedge_result];[roiedge_cnt];"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200810624"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="close file_A_A"
+	RtType="5"
+	RtId="200885296"
+	ParentInstr="0"
+	InstrType="701"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200832480"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="199497008"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199497008">
+<Children>
+<Child
+	Id="200838528"
+/>
+<Child
+	Id="200838848"
+/>
+<Child
+	Id="200885296"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+<Sub
+	RtName="SavePictureAccord"
+	RtType="5"
+	RtId="199491968"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="ifelse FinalResult == TRUE"
+	RtType="5"
+	RtId="199827104"
+	ParentInstr="0"
+	InstrType="11"
+	Collapsed="0"
+	Condition="[FinalResult]== TRUE ">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CDiskSpace_"
+	RtName="DiskSpaceA"
+	RtType="5"
+	RtId="200884976"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-DiskSpaceA">
+<Inputs>
+<id2
+	RtId="200832960"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200812480"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="126.3642463684082"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="free disk space: 126.36"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id2
+	RtId="200813408"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="229.11620712280273"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="total disk space: 229.12"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+<id4
+	RtId="200814336"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="55.152906010127403"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="percent free: 55.15"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+</Outputs>
+<Params>
+<id0
+	RtName="size units"
+	RtType="2"
+	RtId="199747856"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="3"
+/>
+</id0>
+</Params>
+</Instruction>
+<Instruction
+	RtName="if DISKSPACE LESS 40"
+	RtType="5"
+	RtId="197854368"
+	ParentInstr="0"
+	InstrType="10"
+	Collapsed="1"
+	Condition="[DiskSpaceA.percent free] &lt; 40">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CGetTimeDiff_"
+	RtName="GetTimeProcessing_A"
+	RtType="5"
+	RtId="200891696"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="CODE_REVE_V007-GetTimeProcessing_A">
+<Inputs>
+<id0
+	RtId="200833440"
+	Connected="188938016">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200902752"
+	ConnVar="199114432"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="411.51249382644892"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="time difference: 411.51"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="open file time"
+	RtType="5"
+	RtId="200890736"
+	ParentInstr="0"
+	InstrType="700"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200833920"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200833680"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\LOG\[dateFormat].txt"
+/>
+</id1>
+<id2
+	RtId="200834160"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200904608"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="write file time"
+	RtType="5"
+	RtId="200889456"
+	ParentInstr="0"
+	InstrType="703"
+	Collapsed="0">
+<Inputs>
+<id0
+	RtId="200835840"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200836080"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="OEE;[total_ok];[total_analisado]; [total_ok_percentual];Time;[TimeProcessing]; Result ;[FinalResult];"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200906464"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="close file time"
+	RtType="5"
+	RtId="200887536"
+	ParentInstr="0"
+	InstrType="701"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200828640"
+	Connected="198551328">
+<Obj
+	Type="0"
+/>
+</id0>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="If"
+	RtType="5"
+	RtId="200885616"
+	ParentInstr="199827104"
+	InstrType="15"
+	Collapsed="1"
+	IfElseParent="199827104"
+/>
+<Instruction
+	RtName="Else"
+	RtType="5"
+	RtId="200890416"
+	ParentInstr="199827104"
+	InstrType="16"
+	Collapsed="1"
+	IfElseParent="199827104"
+/>
+<Instruction
+	RtName="save image OK ORI"
+	RtType="5"
+	RtId="200885936"
+	ParentInstr="0"
+	InstrType="507"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200828880"
+	Connected="200759984">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200829120"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_OK\[dateFormat]_[timeFormat]_[GID]_IMG_OK.jpg"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200899040"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="save image OK_Annote"
+	RtType="5"
+	RtId="200888496"
+	ParentInstr="0"
+	InstrType="507"
+	Collapsed="0">
+<Inputs>
+<id0
+	RtId="200908944"
+	Connected="200760160">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200911824"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_OK\[dateFormat]_[timeFormat]_[GID]_ANNO_OK.jpg"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200894400"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="save image OK_BLOB"
+	RtType="5"
+	RtId="200891056"
+	ParentInstr="0"
+	InstrType="507"
+	Collapsed="0">
+<Inputs>
+<id0
+	RtId="200914464"
+	Connected="200756992">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200911344"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_OK\[dateFormat]_[timeFormat]_[GID]_BLOB_OK.jpg"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200899968"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="save image OK_EDGE"
+	RtType="5"
+	RtId="200892016"
+	ParentInstr="0"
+	InstrType="507"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200911104"
+	Connected="200754880">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200916144"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_OK\[dateFormat]_[timeFormat]_[GID]_EDGE_OK.jpg"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200895328"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="async pulse digital OK"
+	RtType="5"
+	RtId="200889776"
+	ParentInstr="0"
+	InstrType="103"
+	Collapsed="0"
+	ExecDisabled="1">
+<Inputs>
+<id0
+	RtId="200913264"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="200914704"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id1>
+<id2
+	RtId="200910144"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id2>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="save image NOT OK ORI"
+	RtType="5"
+	RtId="200884336"
+	ParentInstr="0"
+	InstrType="507"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200911584"
+	Connected="200759984">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200916384"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_NOK\[dateFormat]_[timeFormat]_[GID]_ORI_NOTOK.jpg"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200896256"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="save image NOT OK ANNO"
+	RtType="5"
+	RtId="200890096"
+	ParentInstr="0"
+	InstrType="507"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200910384"
+	Connected="200760160">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200913504"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_NOK\[dateFormat]_[timeFormat]_[GID]_ANNO_NOTOK.jpg"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200903680"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="save image NOT_BLOB"
+	RtType="5"
+	RtId="200891376"
+	ParentInstr="0"
+	InstrType="507"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="200912064"
+	Connected="200756992">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200915184"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_NOK\[dateFormat]_[timeFormat]_[GID]_BLOB_NOTOK.jpg"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200905536"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="save image NOT_EDGE"
+	RtType="5"
+	RtId="200884656"
+	ParentInstr="0"
+	InstrType="507"
+	Collapsed="0">
+<Inputs>
+<id0
+	RtId="200912304"
+	Connected="200754880">
+<Obj
+	Type="0"
+/>
+</id0>
+<id1
+	RtId="200910624"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_NOK\[dateFormat]_[timeFormat]_[GID]_EDGE_NOTOK.jpg"
+/>
+</id1>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200907392"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="async pulse digital NOK"
+	RtType="5"
+	RtId="200886256"
+	ParentInstr="0"
+	InstrType="103"
+	Collapsed="0"
+	ExecDisabled="1">
+<Inputs>
+<id0
+	RtId="200909904"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="2"
+/>
+</id0>
+<id1
+	RtId="200912544"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id1>
+<id2
+	RtId="200914944"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id2>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CFolderDelete_"
+	RtName="FolderDelete NOK"
+	RtType="5"
+	RtId="200886576"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="CODE_REVE_V007-FolderDelete_NOK">
+<Inputs>
+<id0
+	RtId="200913744"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_NOK\"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200897184"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CFolderDelete_"
+	RtName="FolderDelete OK"
+	RtType="5"
+	RtId="200886896"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="CODE_REVE_V007-FolderDelete_OK">
+<Inputs>
+<id0
+	RtId="200914224"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_OK\"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200892544"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CFolderCreate_"
+	RtName="FolderCreate NOK"
+	RtType="5"
+	RtId="200887216"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="CODE_REVE_V007-FolderCreate_NOK">
+<Inputs>
+<id0
+	RtId="200910864"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_OK\"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200901824"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_Ipe_System_CFolderCreate_"
+	RtName="FolderCreate OK"
+	RtType="5"
+	RtId="200887856"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="CODE_REVE_V007-FolderCreate_OK">
+<Inputs>
+<id0
+	RtId="200916624"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="D:\OBJECT_NOK"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="200898112"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+</Outputs>
+<Params
+/>
+</Instruction>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="199491968"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199491968">
+<Children>
+<Child
+	Id="199827104"
+/>
+<Child
+	Id="200884976"
+/>
+<Child
+	Id="197854368"
+/>
+<Child
+	Id="200891696"
+/>
+<Child
+	Id="200890736"
+/>
+<Child
+	Id="200889456"
+/>
+<Child
+	Id="200887536"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199827104">
+<Children>
+<Child
+	Id="200885616"
+/>
+<Child
+	Id="200890416"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="200885616">
+<Children>
+<Child
+	Id="200885936"
+/>
+<Child
+	Id="200888496"
+/>
+<Child
+	Id="200891056"
+/>
+<Child
+	Id="200892016"
+/>
+<Child
+	Id="200889776"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="200890416">
+<Children>
+<Child
+	Id="200884336"
+/>
+<Child
+	Id="200890096"
+/>
+<Child
+	Id="200891376"
+/>
+<Child
+	Id="200884656"
+/>
+<Child
+	Id="200886256"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="197854368">
+<Children>
+<Child
+	Id="200886576"
+/>
+<Child
+	Id="200886896"
+/>
+<Child
+	Id="200887216"
+/>
+<Child
+	Id="200887856"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+<Sub
+	RtName="reset_var"
+	RtType="5"
+	RtId="199493984"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="reset_value"
+	RtType="5"
+	RtId="199824416"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="199493984"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="199493984">
+<Children>
+<Child
+	Id="199824416"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>
