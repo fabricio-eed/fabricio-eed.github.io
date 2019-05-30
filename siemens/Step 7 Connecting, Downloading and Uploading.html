@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0042)http://www.plcdev.com/book/export/html/597 -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>Step 7 Connecting, Downloading and Uploading</title>
+<!--<base href="http://www.plcdev.com/">--><base href=".">
+<style type="text/css">
+@import url(misc/print.css);
+</style>
+</head>
+<body>
+<div class="section-1">
+<div id="node-597" class="section-2">
+<h1 class="book-heading">Step 7 Connecting, Downloading and Uploading</h1>
+ <p>These are general guidelines for connecting, downloading and uploading from an S7-300 or S7-400 <abbr title="Programmable Logic Controller"><a class="" href="http://www.plcdev.com/glossary/1?Array">PLC</a></abbr>.  The following procedures were created using Siemens SIMATIC STEP 7 version 5.4 software.  </p>
+<p>To start, open the SIMATIC Manager.</p>
+<div align="center"><img src="./Step 7 Connecting, Downloading and Uploading_files/Simatic-Manager-Start.gif" width="385" height="132" alt="" border="0" align="center"></div>
+<p></p>
+<p>Now follow the links below.</p>
+ <div id="node-598" class="section-3">
+<h1 class="book-heading">Connecting to the S7 PLC</h1>
+ <h3>The Programming Cables</h3>
+<p>There are three major types of programming cables:</p>
+<p>1.	The CP5512 card in a PCMCIA slot. </p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-cp5512.jpg" width="300" height="277" alt="" border="0"></p>
+<p>2.	The PC Adapter using a serial or USB connection</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-usb-pc-adapter.jpg" width="450" height="255" alt="" border="0"></p>
+<p>3.	An Ethernet cable</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-ethernet-cable.jpg" width="250" height="144" alt="" border="0"></p>
+<p>The CP5512 card and the PC Adapter can communicate on either an MPI or PROFIBUS port.  Note that PROFIBUS is labeled as DP on the Siemens connection ports.  These cables can piggyback on existing connectors.  Be aware that the PC Adapter draws its power to work from the connection port so check the power <abbr title=""><a class="" href="http://www.plcdev.com/glossary/1?Array">LED</a></abbr> for proper operation.  The CP5512 card draws its power from the computer.</p>
+<p>For Ethernet (TCP/IP) use a standard Ethernet cable from the computer to a <abbr title="The Central Processing Unit also refered to as the Processor.  The part of the PLC that runs and interprets the code."><a class="" href="http://www.plcdev.com/glossary/1?Array">CPU</a></abbr> with an Ethernet port, a CP 343/443 module or a network switch all ready attached to the <abbr title="Programmable Logic Controller"><a class="" href="http://www.plcdev.com/glossary/1?Array">PLC</a></abbr> network.</p>
+<h3>Checking Communications</h3>
+<p>With the programming cable plugged in, you can check for proper operation by clicking on the Accessible Nodes icon.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Accessible-Nodes-Icon.gif" width="240" height="137" alt="" border="0"></p>
+<p>If communications are successful, you'll see a window pop up similar to the one below.  If so, then close the Accessible Nodes window and proceed to the download or upload section.</p>
+<p><img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Accessible-Nodes-2.gif" width="430" height="180" alt="" border="0"> </p>
+<p>If communication fails then you will receive a message like below.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Comm-link-damaged.gif" width="361" height="142" alt="" border="0"></p>
+<p>This indicates that the cable is not in the right computer port or the cable is not plugged in properly.</p>
+<h3>Setting the PG/PC Interface</h3>
+<p>In order to start communication to the PLC you will need to match the "PG Interface" setting with the programming cable and protocol.  To do this, select the menu <em>Options &gt; Set PG/PC Interface</em>.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Set-PG-Interface-Menu.gif" width="456" height="406" alt="" border="0"></p>
+<p>The following dialog box will open up displaying all the different interfaces (i.e. communication drivers).</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Set-PG-Interface-PC-Adapter.gif" width="382" height="437" alt="" border="0"></p>
+<p>Each cable has its own interface.  For Ethernet select the TCP/IP interface for your computers network card.  Be careful not to select your wireless Ethernet connection.</p>
+<p>To get it working quickly it is best to select the interface with the Auto designation.  This will discover working settings and use them automatically.</p>
+<p>For the PC Adapter click on the Properties button and make sure the Station Parameters <abbr title="A code or number used to reference an area of memory in a  PLC."><a class="" href="http://www.plcdev.com/glossary/1?Array">Address</a></abbr> is a unique network address.  It should not conflict with existing PLC and slave devices on the network.  Also, check under the Local Connection tab and make sure connection selection matches the port the cable is connected into.</p>
+<p>Once the proper interface is selected and the properties are set then click OK and use the Accessible Nodes window to check for successful communications.  It should work.  If not double-check the connection and cable.  With the CP5512 and PC Adapter cables, you should use the MPI port, as this is the default connection for Siemens.</p>
+<p>If this doesn't work then I don't know what to tell you.</p>
+ </div>
+<div id="node-599" class="section-3">
+<h1 class="book-heading">Downloading</h1>
+ <p>First, in order to enable the download menu commands, you must select the <abbr title="A group of bytes or words.  A term often used when transmitting or moving areas of memory."><a class="" href="http://www.plcdev.com/glossary/1?Array">Block</a></abbr> folder in the project's station you wish to download.</p>
+<p><img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Download-All-Blocks.gif" alt="" border="0"></p>
+<p>There are three methods of downloading.</p>
+<ol>
+<li>Partial download of selected blocks</li>
+<li>Full download of all blocks and system data</li>
+<li>Complete deletion of online <abbr title="Programmable Logic Controller"><a class="" href="http://www.plcdev.com/glossary/1?Array">PLC</a></abbr> blocks and then downloading of all blocks and system data</li>
+</ol>
+<h3>Partial Download</h3>
+<p>Partial downloads are used in existing projects where only one or more blocks will be downloaded.  To perform this type of download select the block(s) you wish to download and then select the PLC &gt; Download menu item or the download button <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Download-Icon.gif" width="22" height="22" alt="" border="0">.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Download-Menu.gif" width="403" height="235" alt="" border="0"></p>
+<p>Holding down the Ctrl key or the Shift key allows more then one block to be selected at a time.  Be careful though as the order of download will occur in the order that the blocks were selected.  This may mean that an error will occur if a block is called before it is downloaded.</p>
+<p>The <abbr title="The Central Processing Unit also refered to as the Processor.  The part of the PLC that runs and interprets the code."><a class="" href="http://www.plcdev.com/glossary/1?Array">CPU</a></abbr> will need to be in Stop mode before downloading the System Data Block (SDB) as this is equivalent to a hardware configuration download.  This is usually not necessary in a PLC that has all ready had its hardware configured.  If you do download the system data, the following messages will prompt you through the transitions.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Do-you-want-to-load-the-system-data.gif" width="275" height="142" alt="" border="0"></p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Do-you-want-to-delete-the-system-data.gif" width="361" height="201" alt="" border="0"></p>
+<p>If the CPU is in Run mode then you will be prompted to Stop the CPU.  The software will do the Run to Stop transition when you click OK.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Run-to-Stop.gif" width="275" height="155" alt="" border="0"></p>
+<p>After downloading the SDB you will be prompted to Run the CPU again.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Stop-to-Run.gif" width="361" height="168" alt="" border="0"></p>
+<p>Clicking Yes will automatically put the CPU back into run mode.</p>
+<h3>Full Download</h3>
+<p>To download all the blocks at once make sure you are in the Block folder and select the Edit &gt; Select All menu item.  Click on the Download icon <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Download-Icon.gif" width="22" height="22" alt="" border="0">.  You will be prompted to overwrite any existing blocks and if you want to load the system data (see above).</p>
+<h3>Clearing the CPU Memory and then Downloading </h3>
+<p>The partial and full download methods above will overwrite existing blocks but will not any blocks from memory.  In order to completely delete the existing program in the CPU and download a new project select the Blocks folder and then use the PLC &gt; Download User Program to Memory Card menu item.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Download-User-Program-to-Memory-Card-Menu.gif" width="402" height="237" alt="" border="0"></p>
+<p>The following dialog box will pop up prompting you about the deletion of all the blocks and project data in the PLC.  Click Yes to perform the operation.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Download-User-Program-to-Memory-Card-Confirmation.gif" width="361" height="168" alt="" border="0"></p>
+<p>After this, follow the normal download procedure.</p>
+ </div>
+<div id="node-600" class="section-3">
+<h1 class="book-heading">Uploading</h1>
+ <p>There are two methods for uploading.  The first is when you have the original project and you want to preserve the symbols and comments.  The second method, when you don't have the original project, will upload everything from the <abbr title="The Central Processing Unit also refered to as the Processor.  The part of the PLC that runs and interprets the code."><a class="" href="http://www.plcdev.com/glossary/1?Array">CPU</a></abbr> but will have no associated documentation (i.e. symbols and comments).</p>
+<h3>Uploading to an Existing Project</h3>
+<p>With the existing project open, select the View &gt; Online menu item.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-View-Online-Menu.gif" width="322" height="333" alt="" border="0"></p>
+<p>This is the same as the Online button on the icon bar.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-View-Online-Icon-no-mouse.gif" width="355" height="164" alt="" border="0"></p>
+<p>This will open up another window called the Online Partner.  It shows the existing blocks inside the CPU.  The Online version is indicated by the highlighted title bar.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Online-Offline-partner.gif" width="503" height="460" alt="" border="0"></p>
+<p>There is a connection between these two versions so that uploading from the online partner makes sure to preserve all the symbols and comments.  Be careful.  After uploading, make sure to close the online partner and do all work from the offline version.</p>
+<p>To upload individual blocks, select them in the Online view and choose the <abbr title="Programmable Logic Controller"><a class="" href="http://www.plcdev.com/glossary/1?Array">PLC</a></abbr> &gt; Upload to PG menu item.  For a full upload, select the <abbr title="A group of bytes or words.  A term often used when transmitting or moving areas of memory."><a class="" href="http://www.plcdev.com/glossary/1?Array">Block</a></abbr> folder and do the same.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Upload-to-PG.gif" width="323" height="252" alt="" border="0"></p>
+<h3>Upload without an Existing Project</h3>
+<p>Follow these steps when you do not have the original project but wish to upload the program for backup purposes.  With an existing project open or a new blank project select the <em>PLC &gt; Upload Station to PGâ€¦</em> menu selection.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Upload-Station-to-PG.gif" width="351" height="237" alt="" border="0"></p>
+<p>In the next screen, fill in the slot the CPU is in (this is always 2 for S7-300) and the node address of the communication port on the CPU.  In the case below we are talking to a CPU over MPI with node address 10.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Select-Node-Address.gif" width="483" height="520" alt="" border="0"></p>
+<p>After clicking OK, the whole contents of the PLC including all blocks and hardware configuration will be uploaded into a new station in the project.</p>
+<p> <img src="./Step 7 Connecting, Downloading and Uploading_files/S7-Uploaded-Station-Copy.gif" width="496" height="228" alt="" border="0"></p>
+<p>While this project contains no documentation, it can be used as a backup to download later if needed.</p>
+ </div>
+</div>
+</div>
+
+
+
+</body></html>
