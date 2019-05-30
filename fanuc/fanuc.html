@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<!--
+Valora  - PROJ 15061
+-->
+<html>
+	<head>
+		<title>Fanuc Diretory</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<a name="top"></a>
+		<!-- Wrapper -->
+
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="../index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Fabricio Ferreira</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="#top">To Top</a></li>
+							<li><a href="#top">Link</a></li>
+							<li><a href="#top">Link</a></li>
+							<li><a href="#top">Contact</a></li>
+							<li><a href="#top">About Me</a></li>
+						</ul>
+					</nav>
+
+
+
+
+
+
+				<!-- Main -->
+
+					<div id="main">
+						<div class="inner">
+							<h1>Fanuc Diretory</h1>
+							<span class="image main"><img src="./images/fanuc.jpg" alt="" /></span>
+							<h4>Context:</h4>
+							<p>The company name is an acronym for Fuji Automatic NUmerical Control. Fanuc Robotics 
+								offers the widest range of industrial robots in the world.
+							 Covering a diverse range of applications and industries, FANUC robots are easy to operate 
+							 and provide complete flexibility thanks to a range of application-specific options, 
+							 straightforward integration, payloads up to 2.3 t and maximum reaches up to 4.7 m.</p>
+							<p> </p>
+							<hr>
+
+							<a name="top"></a>
+
+
+		
+							<details>
+								<summary>User and tecnical Manual</summary>
+								<div class="inner">	
+									<br /><br /><br />
+									<div class="box alt">
+										<div class="row uniform">
+											<a href="doc\CursoProgramacionTPE_nivel_B.pdf">CursoProgramacionTPE_nivel_B.pdf</a>
+											<a href="doc\Fanuc R30ia EthernetIP Operator Manual.pdf">Fanuc R30ia EthernetIP Operator Manual.pdf</a>
+											<a href="doc\infoplc_net_FANUC_SEAT.pdf">FANUC_SEAT source: Infoplc</a>
+											<a href="doc\p605_nj-series_ethercat_fanuc_r-30ib_robot_controller_connection_guide_en.pdf">Ethercat Fanuc + NJNetwork Connection Guide </a>
+											<a href="doc\r30ia_mate.pdf">Fanuc R-30ia Operator's Manual</a>
+											<a href="doc\robot_R30ia Maint Manual.pdf">Fanuc R30ia Maintenance Manual.pdf</a>
+											<br /><br /><br />
+
+										</div>
+									</div>
+								</div>								
+							</details><br /><hr>									
+
+
+							
+
+
+
+
+							<details>
+								<summary>Starting Fanuc Robots in Auto
+									</summary>
+								<div class="inner">	
+									<br /><br /><br />
+									<div class="box alt">
+										<div class="row uniform">																		
+							
+												
+												<strong><br />External cycle start button:</strong><br /><br /><br />
+												<br />1) You should have UOP signals enabled (MENU/SYSTEM/CONFIG/Enable UI signals - True)
+												<br />2) Remote / Local setup must be set to Remote ((MENU/SYSTEM/CONFIG/Remote / Local setup - Remote) or controlled by input
+												<br />3) UI signal 1,2.3 and 8 must be ON (IMSTP, HOLD, SFSPD, Enable)
+												<br />4) MENU/SETUP/PROG Select - RSR/PNS/STYLE... Setup of remote start system
+												<br />
+												
+												<br />Steps 1-3 makes remote start possible. Step 4 defines method which will be used for remote start: 
+												<br />RSR (Robot service request) - one signal is dedicated for each of RSR inputs and starts specified RSR program
+												<br />PNS (Program number select) - set of binary inputs (PNS1-PNS8) is translated to decimal number and PNS with corresponding decimal number is started
+												<br />Style - each Style signal has predefined name of program which will be started
+												<br />Other - one program specified in variable $shell_wrk.$cust_name is started when UI[6] is On
+												
+												<br />Depending on program select and program start option you must use appropriate UI signals. (RSR, PNS+PNSTROBE+PRODSTART and so on)
+												
+												<br /><a href="https://www.robot-forum.com/robotforum/fanuc-robot-forum/external-cycle-start-button/">source: robot-forum</a>
+
+												<br /><br /><br />
+
+												<strong><br />A SIMPLE JOB REQUEST HANDSHAKE: </strong>
+												<br />
+												<a href="doc\Starting FANUC Robots in AUTO - ONE Robotics Company.html">Starting Fanuc Robots in Auto</a>
+												<br /><br /><br />
+												<pre><code>
+i = 0;
+! get_job.ls
+LBL[1] ;
+WAIT (DI[1:job request]) TIMEOUT,LBL[500] ;
+R[1:job]=GI[1] ;
+! GO[1:job] echos R[1] in BG logic ;
+DO[1:job ack]=ON ;
+LBL[2] ;
+WAIT (!DI[1:job request]) TIMEOUT,LBL[501] ;
+DO[1:job ack]=OFF ;
+END ;
+	;
+LBL[500] ;
+! timed out waiting for job ;
+JMP LBL[1] ;
+	;
+LBL[501] ;
+! timed out waiting for job request to go low ;
+JMP LBL[2] ;</code></pre>
+
+
+											<br /><br /><br />
+										</div>
+									</div>
+								</div>								
+							</details><br /><hr>
+
+
+
+							<details>
+								<summary>Intro to Fanuc Background Logic</summary>
+								<div class="inner">	
+									<br /><br /><br />
+									<div class="box alt">
+										<div class="row uniform">
+											<a href="doc\Intro to FANUC Background Logic - ONE Robotics Company.html">Intro to FANUC Background Logic</a>
+
+											<br /><br /><br />
+										</div>
+									</div>
+								</div>								
+							</details><br /><hr>
+
+
+							
+
+	
+							<details>
+									<summary>File Backup / Controller image</summary>
+									<div class="inner">	
+										<br /><br /><br />
+										<div class="box alt">
+											<div class="row uniform">
+												<a href="http://www.robot-forum.com/robotforum/fanuc-robot-forum/file-backup-controller-image-file-management-drive/">Source: Robot-Forum - File Backup / Controller image</a>
+												<br /><br /><br />
+											</div>
+										</div>
+									</div>								
+								</details><br /><hr>
+								
+								<details>
+										<summary>Mapping Robot I/O</summary>
+										<div class="inner">	
+											<br /><br /><br />
+											<div class="box alt">
+												<div class="row uniform">
+													<a href="http://www.robot-forum.com/robotforum/fanuc-robot-forum/mapping-robot-io-through-ethernet/">Source: Robot-Forum - Mapping Robot I/O through EtherNet</a>
+													<br /><br /><br />
+												</div>
+											</div>
+										</div>								
+									</details><br /><hr>						
+	
+
+
+							<div class="inner">	
+								<h3>Static</h3>
+								<ul class="actions small"><li><a href="../bpp17003/pw.html" class="button small">Private Link</a></li></ul>
+							</div><br /><hr>
+
+
+
+						
+
+
+
+						</div>
+					</div>
+
+
+
+
+
+					<ul class="actions fit">
+						<li><a href="#top" class="button fit">Back to Top</a></li>
+					</ul>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+								<section>
+										<div class="row">
+											<div class="6u 12u$(medium)">
+												<h3>Acesso Rápido:</h3>
+												<ul>
+												<li><a href="#">LINK</a></li>
+												<li><a href="#">LINK</a></li>
+												<li><a href="#">LINK</a></li>
+												</ul>
+											</div>
+										</div>
+								</section>
+
+
+
+
+
+
+
+
+
+
+							<ul class="copyright">
+								<li>&copy; Direitos reservados</li><li>fabricio.1137@gmail.com</li>							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

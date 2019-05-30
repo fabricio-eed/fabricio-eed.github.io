@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://www.onerobotics.com/posts/2014/intro-to-fanuc-background-logic/ -->
+<html lang="en-US" dir="ltr" class="gr__onerobotics_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="./Intro to FANUC Background Logic - ONE Robotics Company_files/css" rel="stylesheet">
+		
+		<title>Intro to FANUC Background Logic - ONE Robotics Company</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="NOODP">
+
+		<link rel="stylesheet" type="text/css" href="./Intro to FANUC Background Logic - ONE Robotics Company_files/one.css">
+
+		<link rel="apple-touch-icon-precomposed" href="http://www.onerobotics.com/images/apple-touch-icon-152x152-precomposed.png">
+		<link rel="icon" href="http://www.onerobotics.com/images/favicon.png">
+
+		
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-45641060-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async="" src="./Intro to FANUC Background Logic - ONE Robotics Company_files/analytics.js.transferir"></script>
+
+		<script>
+			window.onload = function() {
+				var hamburger = document.getElementById("hamburger");
+				var nav       = document.getElementById("nav");
+				var closenav  = document.getElementById("closenav");
+
+				hamburger.onclick = function(event) {
+					nav.className = "show";
+				};
+
+				closenav.onclick = function(event) {
+					event.preventDefault();
+					nav.className = " ";
+				};
+			}
+		</script>
+	</head>
+	<body data-gr-c-s-loaded="true">
+		<header id="header">
+			<h1><a href="http://www.onerobotics.com/">ONE Robotics Company</a></h1>
+			<img id="hamburger" src="./Intro to FANUC Background Logic - ONE Robotics Company_files/hamburger.png">
+<nav id="nav">
+	<ul>
+		<li id="x"><a href="http://www.onerobotics.com/posts/2014/intro-to-fanuc-background-logic/#" id="closenav">X</a></li>
+		<li><a href="http://www.onerobotics.com/about">About</a></li>
+		<li><a href="http://www.onerobotics.com/apps/fanuc_robot_backup_tool">BackupTool</a></li>
+		<li><a href="http://www.onerobotics.com/datatool">DataTool</a></li>
+		<li><a href="http://www.onerobotics.com/projects">Projects</a></li>
+		<li><a href="http://www.onerobotics.com/tags">Tags</a></li>
+	</ul>
+</nav>
+
+		</header>
+
+		<section id="content">
+			<div id="logo" class="inner">
+				<a href="http://www.onerobotics.com/"><img src="./Intro to FANUC Background Logic - ONE Robotics Company_files/logo.png" width="120" alt="ONE Robotics Company"></a>
+			</div>
+
+
+	<article>
+		<header>
+			<div class="inner">
+				<h2>Intro to FANUC Background Logic</h2>
+				<p>Filed under:
+				
+					<a href="http://www.onerobotics.com/tags/fanuc">FANUC</a>
+				
+					<a href="http://www.onerobotics.com/tags/tp-programming">TP Programming</a>
+				
+				</p>
+				
+			</div>
+		</header>
+		<section>
+			<div class="inner">
+				<div class="post">
+					
+
+<p>FANUC’s Background Logic feature is basically the ladder-logic you know
+and love in TP Program form. These programs only consist of Mixed Logic
+statements (e.g. F[1]=(DI[1] AND DI[2])), and the programs are
+constantly scanned in the background while your robot is online,
+ignoring all E-Stops, alarms, etc. Depending on the complexity of your
+system, you may be able to skip the PLC and simply use BG Logic to
+control everything.</p>
+
+<h2 id="how-complex-can-my-system-be">How Complex Can My System Be?</h2>
+
+<p>Well, that depends on a few things:</p>
+
+<ol>
+<li>How fast does your scan time need to be?</li>
+<li>How comfortable are you with ladder logic?</li>
+<li>How comfortable are you translating ladder logic to mixed logic?</li>
+</ol>
+
+<h3 id="scan-time">Scan time</h3>
+
+<p>Each BG Logic program can run in one of two modes: Normal and
+High-Level. A Normal mode BG Logic program’s scan time will vary with
+the number of items to be scanned (no maximum). A High-Level mode BG Logic
+program is guaranteed to scan up to 540 items every 8ms. An “item” is is
+any instruction (e.g. assignment, if-statement), operator (e.g. AND,
+OR, =, ‘(’, ‘)’, +) or piece of data (F[], R[], DI[], DO[]).</p>
+
+<p>The scan time of a normal mode program is:</p>
+
+<pre><code class="language-text">              Total # of Items
+  Scan Time = ---------------- * ITP
+                    600
+</code></pre>
+
+<p>Your ITP is typically 8ms unless you’re using a Genkotsu robot.</p>
+
+<h3 id="example">Example:</h3>
+
+<p>Let’s first draw a ladder-logic diagram:</p>
+
+<pre><code class="language-text">
+  |                              |
+  |                        F[1]  |
+  |------------------------(  )--|
+  |                              |
+  |          DI[1]         F[2]  |
+  |-----------] [----------(  )--|
+  |                              |
+  |          DI[2]         F[3]  |
+  |-------*---] [---*------(  )--|
+  |       |         |            |
+  |       |  F[2]   |            |
+  |       *---] [---*            |
+  |                              |
+
+</code></pre>
+
+<p>How would you write this in a BG Logic program?</p>
+
+<pre><code class="language-tp">  F[1]=(ON) ;
+  F[2]=(DI[1]) ;
+  F[3]=(DI[2] OR F[2]) ;
+</code></pre>
+
+<p>Now what about scan time? If we’re running in Normal mode, we have to
+count up the number of items in our program.</p>
+
+<p>It’s easy to see we have 3 mixed-logic assignment instructions. Counting
+up the parens and boolean operators gives us 8 operators. We have 6 data
+points after counting all instances of F[] and DI[].</p>
+
+<pre><code class="language-text">  # instructions  | # operators  | # data  | TOTAL
+  ----------------+--------------+---------+------
+  3               | 8            | 6       | 17
+
+              Total # of Items
+  Scan Time = ---------------- * ITP
+                    600
+
+                17
+            = ----- * 8
+               600
+
+            = 0.227ms
+
+</code></pre>
+
+<p>You can see that we have plenty of time to scan through this simple
+program during one 8ms ITP, but you can also see how the total # of
+items adds up pretty quickly.</p>
+
+<h3 id="how-comfortable-are-you-with-ladder-logic">How comfortable are you with ladder logic?</h3>
+
+<p>Even if you don’t come from a PLC background, hopefully the ladder logic
+diagram above makes sense. Imagine <em>current</em> running from left to right to
+the <em>coil</em> on the right side of the <em>rung</em>. If the <em>contact</em> is closed
+(true or ON), current is allowed to continue on to the right. If current
+reaches a regular <em>coil</em>, it gets <em>energized</em>.</p>
+
+<h3 id="how-comfortable-are-you-translating-ladder-logic-to-mixed-logic">How comfortable are you translating ladder logic to mixed logic?</h3>
+
+<p>The example above was pretty easy, but what about a more complicated
+rung?</p>
+
+<pre><code class="language-text">
+  |                                           |
+  |     DI[1]   DI[2]   DI[3]   DI[4]   F[1]  |
+  |--*--] [--*--] [-----] [--*--]/[--*--(  )--|
+  |  |       |               |       |        |
+  |  |       |      DI[5]    |       |        |
+  |  |       *------] [------*       |        |
+  |  |                               |        |
+  |  |     F[1]             DI[1]    |        |
+  |  *-----] [--------------] [------*        |
+  |                                           |
+
+</code></pre>
+
+<p>This turns into the following BG Logic code:</p>
+
+<pre><code class="language-tp">
+  F[1]=((DI[1] AND ((DI[2] AND DI[3]) OR DI[5]) AND !DI[4]) OR (F[1] AND DI[1])) ;
+
+</code></pre>
+
+<p>It’s a lot easier to see what’s going in the diagram, but it’s possible
+with Mixed Logic too.</p>
+
+<h2 id="keep-it-simple">Keep It Simple</h2>
+
+<p>Do you really need to add the complexity of an additional PLC to your
+system? If you’re only controlling a couple of actuators and turning a
+couple of conveyors on and off, maybe not. Combine Background Logic
+with the iPendant as your HMI and you’ve saved yourself quite a bit of
+money.</p>
+
+				</div>
+
+				<hr>
+				<h2>Want posts like this delivered right to your inbox?</h2>
+				<p class="no-margin">If you liked this post, please sign up for my mailing list!</p>
+				
+<div id="mc_embed_signup">
+	<form action="http://onerobotics.us3.list-manage.com/subscribe/post?u=2d40913859a73714c2dff3ea9&amp;id=0112ac82fc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+		<div style="display: none">
+			
+			<input type="checkbox" value="1" name="group[18353][1]" id="mce-group[18353]-18353-0" checked="">
+			
+			<input type="checkbox" value="4" name="group[18437][4]" id="mce-group[18437]-18437-0" checked="">
+		</div>
+		<div id="mc_embed_signup_scroll">
+			<div class="mc-field-group">
+				<label for="mce-FNAME">First Name  <span class="asterisk">*</span>
+				</label>
+				<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+			</div>
+
+			<div class="mc-field-group">
+				<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+				</label>
+				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+			</div>
+			<div class="mc-field-group">
+				<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>    
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2d40913859a73714c2dff3ea9_0112ac82fc" tabindex="-1" value=""></div>
+				<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button special"></div>
+			</div>
+		</div>
+	</form>
+</div>
+
+
+
+			</div>
+		</section>
+	</article>
+
+			<footer>
+				<div class="inner">
+					<hr>
+					<p>©2016 ONE Robotics Company LLC. All rights reserved.</p>
+				</div>
+			</footer>
+		</section> 
+	
+
+
+</body></html>
