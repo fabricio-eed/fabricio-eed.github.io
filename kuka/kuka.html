@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<!--
+Valora  - PROJ 15061
+-->
+<html>
+	<head>
+		<title>Kuka Diretory</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<a name="top"></a>
+		<!-- Wrapper -->
+
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="../index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Fabricio Ferreira</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="#top">To Top</a></li>
+							<li><a href="#top">Link</a></li>
+							<li><a href="#top">Link</a></li>
+							<li><a href="#top">Contact</a></li>
+							<li><a href="#top">About Me</a></li>
+						</ul>
+					</nav>
+
+
+
+
+
+
+				<!-- Main -->
+
+					<div id="main">
+						<div class="inner">
+							<h1>Kuka Diretory</h1>
+							<span class="image main"><img src="./images/kuka.jpg" alt="" /></span>
+							<h4>Context:</h4>
+							<p>KUKA, is an acronym for Keller und Knappich Augsburg.
+								KUKA is a Chinese-owned German manufacturer of industrial robots and solutions for factory
+								 automation. </p>
+							<p> </p>
+							<hr>
+
+							<a name="top"></a>
+
+
+							
+
+							<details>
+							<summary>Kuka Manual</summary>
+							<div class="inner">	
+								<br /><br /><br />
+								<div class="box alt">
+									<div class="row uniform">
+									<a href="doc\KR_C4_compact operating instructions_en.pdf">Kuka C4 Operating Instructions</a>
+									<a href="doc\Kuka System Integrators.pdf">kuka Operating and Programming Instructions for System Integrators</a>
+									<a href="doc\KUKA TP GUIDE KSS82EndUsers.pdf">kuka Operating and Programming Instructions for End User</a>
+									<a href="doc\Kuka Workvisual40.pdf">Kuka Workvisual 4.0.pdf</a>	
+									<a href="doc\KRL-Reference-Guide-v4_1.pdf">KRL-Reference-Guide-v4_1.pdf</a>								
+									<a href="doc\Kuka System Variables.pdf">Kuka System Variables.pdf</a>	
+									
+									<br /><br /><br />
+									</div>
+								</div>
+							</div>								
+							</details><br /><hr>
+
+							<details>
+							<summary>Kuka Quick Programmin Sintax</summary>
+							<div class="inner">	
+							<br /><br /><br />
+							<div class="box alt">
+								<div class="row uniform">
+										<a href="doc\KUKA PROGRAMING SINTAX.docx">KUKA PROGRAMING SINTAX.docx</a>
+									<br /><br /><br />
+								</div>
+							</div>
+							</div>								
+							</details><br /><hr>
+
+
+
+							<details>
+							<summary>Offset a Target Point:</summary>
+							<div class="inner">	
+								<br /><br /><br />
+								<div class="box alt">
+									<div class="row uniform">								
+									<p> the Geometric operator applies shifts (the portion on the right side of the colon) along/around the reference frame (the portion on the left side of the colon).
+									<br /><strong>PTP P1 : {X 0,Y 0,Z 100,A 0,B 0,C 0}</strong> will move the robot to a point 100mm from P1, along the Z+ axis of the active $TOOL, 
+									<br /><strong>PTP {X 0,Y 0,Z 100,A 0,B 0,C 0} : P1</strong> will move the robot to a point 100mm from P1, along the Z+ axis of the active $BASE.
+									</p>
+									<br /><br /><br />
+									</div>
+								</div>
+							</div>								
+							</details><br /><hr>
+
+
+							<details>
+							<summary>Define Subroutine with paramaters</summary>
+							<div class="inner">	
+								<br /><br /><br />
+								<div class="box alt">
+									<div class="row uniform">
+<pre><code>
+DEF Subroutine1 (_A :IN, _B:OUT)
+; :IN is pass-by-value, :OUT is pass-by-reference
+DECL BOOL _A ;required -- received arguments must be pre-typed in advance
+DECL REAL _B
+END
+</code></pre>
+									<br /><br /><br />
+									</div>
+								</div>
+							</div>								
+							</details><br /><hr>
+
+
+
+
+
+
+							<details>
+									<summary>Lin_Rel and Variables: </summary>
+									<div class="inner">	
+										<br /><br /><br />
+										<div class="box alt">
+											<div class="row uniform">
+													<p> 
+1. use aggregate (curly braces). this un-initializes variable and then initializes only mentioned elements. assigned values must be literals. example:
+<pre><code>
+DECL POS myPoint
+; ...
+MyPoint = { x 100} ; x element is set, all others are unknown
+MyPoint = { y 200} ; y element is set, all others are unknown - including X which used to be 100
+MyPoint = { x 100, y 200, z 300, a 0, b 45, c 60, s 6, t 21} ; can only use constants such as 100, 200, 300, 6, 21 but not variable names
+
+</code></pre>
+												</p>
+												<p> 
+												2.2. use dot operator. this allows you to access single element WITHOUT affecting (loosing) values of other elements. this also allows you to use variables, expressions etc.
+
+<pre><code>
+DECL POS myPoint
+; ...
+MyPoint = { x 100, y 200, z 300, a 0, b 45, c 60, s 6, t 21} ; can only use constants such as 100, 200, 300, 6, 21 but not variable names
+MyPoint.y= MyPoint.y - 3*$date.sec + sin(45) ; we can use expressions, variables etc. only .Y component is affected, all other elements of MyPoint are retained
+</code></pre>
+											</p>
+											<br /><br /><br />
+											</div>
+										</div>
+									</div>								
+								</details><br /><hr>
+
+
+
+
+
+							<details>
+								<summary>TCP Ref</summary>
+								<div class="inner">	
+									<br /><br /><br />
+									<div class="box alt">
+										<div class="row uniform">
+										<div class="12u$"><span class="image fit"><img src="images\1-1.png" alt="" /></span></div>
+											<br /><br /><br />
+										</div>
+									</div>
+								</div>								
+							</details><br /><hr>
+
+
+							<details>
+								<summary>CJ1W & KUKA Ethercat</summary>
+								<div class="inner">	
+									<br /><br /><br />
+									<div class="box alt">
+										<div class="row uniform">
+											<a href="doc\GR Conexion NJ_CJ2 KUKA CJ1W_ECT21.pdf">Conexion NJ_CJ2 & KUKA Ethercat </a>
+											<br /><br /><br />
+										</div>
+									</div>
+								</div>								
+							</details><br /><hr>
+
+
+
+							<div class="inner">	
+								<h3>Static</h3>
+								<ul class="actions small"><li><a href="../bpp17003/pw.html" class="button small">Private Link</a></li></ul>
+							</div><br /><hr>
+
+
+
+						
+
+
+
+						</div>
+					</div>
+
+
+
+
+
+					<ul class="actions fit">
+						<li><a href="#top" class="button fit">Back to Top</a></li>
+					</ul>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+								<section>
+										<div class="row">
+											<div class="6u 12u$(medium)">
+												<h3>Acesso Rápido:</h3>
+												<ul>
+												<li><a href="#">LINK</a></li>
+												<li><a href="#">LINK</a></li>
+												<li><a href="#">LINK</a></li>
+												</ul>
+											</div>
+										</div>
+								</section>
+
+
+
+
+
+
+
+
+
+
+							<ul class="copyright">
+								<li>&copy; Direitos reservados</li><li>fabricio.1137@gmail.com</li>							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
