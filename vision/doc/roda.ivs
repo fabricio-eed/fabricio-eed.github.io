@@ -1,0 +1,702 @@
+<?xml version="1.0"?>
+<!--  Monday, January 24, 2011 17:07:21  -->
+
+<Investigation
+	Version="7010600"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables
+/>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="126728352"
+/>
+<FileIo
+	RtId="46443064"
+/>
+<FileIo
+	RtId="121884952"
+/>
+<FileIo
+	RtId="121885336"
+/>
+<FileIo
+	RtId="121885688"
+/>
+<FileIo
+	RtId="121886072"
+/>
+<FileIo
+	RtId="122571528"
+/>
+<FileIo
+	RtId="122571912"
+/>
+<FileIo
+	RtId="122572296"
+/>
+<FileIo
+	RtId="122570888"
+/>
+</FileIoMgr>
+<SerialIoMgr>
+<SerialIo
+	BaudRate="9600"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
+/>
+</SerialIoMgr>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="121884680"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="126574696"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="4"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="1"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="652"
+	WndPosBottom="544"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\Program Files\ipd\Sherlock\Bin\..\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="126745408"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="47065824"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="6.401651605963707"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 6.40"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="47066344"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	File="G:\Practicas\P7_extra\teste.bmp"
+/>
+<Image
+	Width="640"
+	Height="480"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="126591648"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="126470880"
+	ParentInstr="126574696"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="126574696"
+/>
+<Instruction
+	RtName="RectA"
+	RtType="5"
+	RtId="47112224"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="1"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="5"
+	HdrLocY="-5"
+	WriteChanges="1"
+	Locked="1"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="126574696"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepA"
+	RtType="5"
+	RtId="127114952"
+	ParentInstr="47112224"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="47112224"
+	Tag="teste-RectA-prepA"
+	ImgProcId="_CIpeThresholdExtr_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="threshold"
+	RtType="2"
+	RtId="126746376"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="128"
+/>
+</id0>
+<id1
+	RtName="below value"
+	RtType="2"
+	RtId="47113344"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="above value"
+	RtType="2"
+	RtId="47113512"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="255"
+/>
+</id2>
+</Params>
+</Preprocessor>
+<Preprocessor
+	PreprocIndex="1"
+	RtName="prepB"
+	RtType="5"
+	RtId="47113944"
+	ParentInstr="47112224"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="47112224"
+	Tag="teste-RectA-prepB"
+	ImgProcId="_CIpeMedian_">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Preprocessor>
+</Preprocessors>
+<Algorithms
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="47112952"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="CircleA"
+	RtType="5"
+	RtId="47114424"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="16777232"
+	Interpolate="0"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="321"
+	HdrLocY="219"
+	WriteChanges="0"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="126574696"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(316,224),(256,36)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(316,224),(256,36)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="47115704"
+	ParentInstr="47114424"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="47114424"
+	Tag="teste-CircleA-algA"
+	ImgProcId="_CIpeDetectEdges_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="127115272"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="45"
+	Value="(259.344,34.9655),(286.644,28.8533),(313.534,26.6731),(341.463,28.3073),(368.88,33.8744),(394.317,42.8634),(419.144,55.7583),(441.127,71.3984),(462.123,91.3646),(478.847,112.534),(492.973,136.682),(503.542,162.585),(510.343,189.722),(513.202,216.549),(512.274,244.51),(507.642,271.088),(498.682,298.641),(486.794,322.86),(471.715,345.231),(453.725,365.336),(432.355,383.391),(408.646,398.243),(383.076,409.593),(357.136,417.007),(329.43,420.885),(302.451,420.877),(275.725,417.189),(248.812,409.552),(224.132,398.655),(201.169,384.493),(179.628,366.642),(161.447,346.709),(145.648,323.621),(133.653,299.456),(125.066,273.88),(119.931,246.379),(118.711,219.428),(121.34,191.575),(127.581,165.329),(137.771,139.274),(150.992,115.757),(167.298,94.2632),(187.138,74.5391),(209.568,57.8188),(233.228,44.8554)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="275"
+	Y="18"
+	Clr="0"
+	Text="position: ((259.34, 34.97), ...) [45]"
+	Display="1"
+	Highlight="0"
+	So="126574696">
+<Coord
+	Size="90"
+	Value="259.344,34.9655,286.644,28.8533,313.534,26.6731,341.463,28.3073,368.88,33.8744,394.317,42.8634,419.144,55.7583,441.127,71.3984,462.123,91.3646,478.847,112.534,492.973,136.682,503.542,162.585,510.343,189.722,513.202,216.549,512.274,244.51,507.642,271.088,498.682,298.641,486.794,322.86,471.715,345.231,453.725,365.336,432.355,383.391,408.646,398.243,383.076,409.593,357.136,417.007,329.43,420.885,302.451,420.877,275.725,417.189,248.812,409.552,224.132,398.655,201.169,384.493,179.628,366.642,161.447,346.709,145.648,323.621,133.653,299.456,125.066,273.88,119.931,246.379,118.711,219.428,121.34,191.575,127.581,165.329,137.771,139.274,150.992,115.757,167.298,94.2632,187.138,74.5391,209.568,57.8188,233.228,44.8554"
+/>
+</Annot>
+</id0>
+<id1
+	RtId="127115792"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="45"
+	Value="127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="strength: ((127.00), ...) [45]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id3
+	RtId="127116312"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="45"
+	Value="3.5,31.5,58.5,86.5,114.5,141.5,169.5,196.5,225.5,252.5,280.5,308.5,336.5,363.5,391.5,418.5,447.5,474.5,501.5,528.5,556.5,584.5,612.5,639.5,667.5,694.5,721.5,749.5,776.5,803.5,831.5,858.5,886.5,913.5,940.5,968.5,995.5,1023.5,1050.5,1078.5,1105.5,1132.5,1160.5,1188.5,1215.5"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="distance from starting point: ((3.50), ...) [45]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id2
+	RtId="127116856"
+	ConnVar="0"
+	Watch="1"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="45"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="edges detected: 45.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+</Outputs>
+<Params>
+<id0
+	RtName="edge profile"
+	RtType="2"
+	RtId="127117544"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="smoothing"
+	RtType="2"
+	RtId="127117904"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="detector size"
+	RtType="2"
+	RtId="127118216"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="4"
+/>
+</id2>
+<id3
+	RtName="min edge strength"
+	RtType="2"
+	RtId="127118536"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id3>
+<id4
+	RtName="edge type"
+	RtType="2"
+	RtId="127118856"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id4>
+<id5
+	RtName="scan direction"
+	RtType="2"
+	RtId="127119320"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id5>
+<id6
+	RtName="pixels to skip"
+	RtType="2"
+	RtId="127119696"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id6>
+<id7
+	RtName="strength tolerance"
+	RtType="2"
+	RtId="127120056"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="5"
+/>
+</id7>
+<id8
+	RtName="edges to find"
+	RtType="2"
+	RtId="127120368"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="100"
+/>
+</id8>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="47115240"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="126990032"
+	ParentInstr="126574696"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="126574696"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="121884680"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="121884680">
+<Children>
+<Child
+	Id="126574696"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="126574696">
+<Children>
+<Child
+	Id="126470880"
+/>
+<Child
+	Id="47112224"
+/>
+<Child
+	Id="47114424"
+/>
+<Child
+	Id="126990032"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched>
+<Rdg
+	Id="127116856"
+/>
+</Watched>
+</Investigation>
